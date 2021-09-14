@@ -1,0 +1,3 @@
+plugins {
+    `nexus-config`
+}

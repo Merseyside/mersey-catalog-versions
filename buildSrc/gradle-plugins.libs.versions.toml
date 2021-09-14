@@ -1,0 +1,10 @@
+[versions]
+kotlin = "1.5.30"
+nexusPublish = "1.0.0"
+versionChecker = "0.39.0"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
+nexus-publish = { id = "io.github.gradle-nexus:publish-plugin", version.ref = "nexusPublish" }
+versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
