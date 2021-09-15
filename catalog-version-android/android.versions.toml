@@ -31,6 +31,9 @@ rxjava2 = "2.2.20"
 coil = "1.3.2"
 typedDataStore = "1.0.0"
 location = "18.0.0"
+ktor = "1.6.2"
+koin = "3.1.2"
+sqldelight = "1.5.0"
 
 merseyLib = "1.4.7"
 kmmLibrary = "1.4.0"
@@ -71,6 +74,9 @@ gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 typedDataStore = { module = "androidx.datastore:datastore", version.ref = "typedDataStore" }
 location = { module = "com.google.android.gms:play-services-location", version.ref = "location" }
+ktor = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
+koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+sqldelight = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqldelight" }
 
 #Mersey libs
 merseyLib-archy = { module = "com.github.Merseyside.mersey-android-library:archy", version.ref="merseyLib" }
