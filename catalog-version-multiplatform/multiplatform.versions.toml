@@ -1,0 +1,36 @@
+[versions]
+#kotlin
+coroutines = "1.5.2-native-mt"
+serialization = "1.3.0-RC"
+ktor = "1.6.2"
+sqlDelight = "1.5.0"
+moko-mvvm = "0.11.0"
+koin = "3.1.2"
+sqldelight = "1.5.0"
+moko-resources = "0.15.1"
+versionChecker = "0.39.0"
+
+#Mersey libs
+kmmLibrary = "1.4.0"
+
+[libraries]
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
+serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref="serialization" }
+ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+moko-mvvm = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
+moko-livedata = { module = "dev.icerock.moko:mvvm-livedata", version.ref = "moko-mvvm" }
+koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+sqldelight = { module = "com.squareup.sqldelight:runtime", version.ref = "sqldelight" }
+moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
+
+#Mersey libs
+merseyLib-archyCore = { module = "io.github.merseyside:archy-core", version.ref = "kmmLibrary" }
+merseyLib-utilsCore = { module = "io.github.merseyside:utils-core", version.ref = "kmmLibrary" }
+
+[bundles]
+moko-mvvm = ["moko-mvvm", "moko-livedata"]
+multiplatformMerseyLibs = ["merseyLib-archyCore", "merseyLib-utilsCore"]
+
+[plugins]
+versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker"}
+
