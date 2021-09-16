@@ -35,7 +35,7 @@ ktor = "1.6.2"
 koin = "3.1.2"
 sqldelight = "1.5.0"
 
-merseyLib = "1.4.7"
+merseyLib = "1.4.8"
 kmmLibrary = "1.4.0"
 filemanager = "1.0.6"
 firestoreCoroutines = "1.0.2"
