@@ -38,7 +38,7 @@ sqldelight = "1.5.0"
 mokoMvvm = "0.11.0"
 
 merseyLib = "1.4.8"
-kmmLibrary = "1.4.0"
+kmmLibrary = "1.4.1"
 filemanager = "1.0.6"
 firestoreCoroutines = "1.0.2"
 
