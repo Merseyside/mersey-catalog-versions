@@ -35,6 +35,8 @@ ktor = "1.6.2"
 koin = "3.1.2"
 sqldelight = "1.5.0"
 
+mokoMvvm = "0.11.0"
+
 merseyLib = "1.4.8"
 kmmLibrary = "1.4.0"
 filemanager = "1.0.6"
@@ -78,6 +80,10 @@ ktor = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
 koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 sqldelight = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqldelight" }
 
+moko-mvvmDatabinding = { module = "dev.icerock.moko:mvvm-databinding", version.ref = "mokoMvvm" }
+moko-mvvmViewBinding = { module = "dev.icerock.moko:mvvm-viewbinding", version.ref = "mokoMvvm" }
+moko-mvvmLiveDataMaterial = { module = "dev.icerock.moko:mvvm-livedata-material", version.ref = "mokoMvvm" }
+
 #Mersey libs
 merseyLib-archy = { module = "com.github.Merseyside.mersey-android-library:archy", version.ref="merseyLib" }
 merseyLib-adapters = { module = "com.github.Merseyside.mersey-android-library:adapters", version.ref="merseyLib"}
@@ -93,3 +99,4 @@ lifecycle = ["lifecycleViewModel", "lifecycleViewModelSavedState", "lifecycleLiv
 navigation = ["navigation", "navigationUi"]
 room = ["room", "roomKtx"]
 merseyLibs = ["merseyLib-archy", "merseyLib-adapters", "merseyLib-animators", "merseyLib-utils"]
+mokoMvvm = ["moko-mvvmDatabinding", "moko-mvvmViewBinding", "moko-mvvmLiveDataMaterial"]
