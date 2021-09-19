@@ -33,7 +33,7 @@ merseyLib-utilsCore = { module = "io.github.merseyside:utils-core", version.ref 
 [bundles]
 moko-mvvm = ["moko-mvvm", "moko-livedata"]
 ktor = ["ktor", "ktorLogging"]
-multiplatformMerseyLibs = ["merseyLib-archyCore", "merseyLib-utilsCore"]
+merseyLibs = ["merseyLib-archyCore", "merseyLib-utilsCore"]
 
 [plugins]
 versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker"}
