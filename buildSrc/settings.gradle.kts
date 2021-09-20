@@ -4,6 +4,17 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 dependencyResolutionManagement {
     versionCatalogs {
         create("gradlePluginsLibs") { from(files("gradle-plugins.libs.versions.toml")) }
-        create("libs") { from(files("../catalog-version-full/full.versions.toml")) }
+
+        val multiplatformLibs by creating {
+            from(files("../catalog-version-multiplatform/multiplatform.versions.toml"))
+        }
+
+        val androidLibs by creating {
+            from(files("../catalog-version-android/android.versions.toml"))
+        }
+
+        val common by creating {
+            from(files("../catalog-version-common/common.versions.toml"))
+        }
     }
 }

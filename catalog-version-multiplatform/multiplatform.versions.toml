@@ -17,23 +17,25 @@ coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version
 serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref="serialization" }
 koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 sqldelight = { module = "com.squareup.sqldelight:runtime", version.ref = "sqldelight" }
+sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
 settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings"}
 
-ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
-ktorLogging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
-
 moko-mvvm = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
-moko-livedata = { module = "dev.icerock.moko:mvvm-livedata", version.ref = "moko-mvvm" }
 moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
+moko-mvvm-livedata = { module = "dev.icerock.moko:mvvm-livedata", version.ref = "moko-mvvm" }
+
+ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
+ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor" }
 
 #Mersey libs
 merseyLib-archyCore = { module = "io.github.merseyside:archy-core", version.ref = "kmmLibrary" }
 merseyLib-utilsCore = { module = "io.github.merseyside:utils-core", version.ref = "kmmLibrary" }
 
 [bundles]
-moko-mvvm = ["moko-mvvm", "moko-livedata"]
-ktor = ["ktor", "ktorLogging"]
 merseyLibs = ["merseyLib-archyCore", "merseyLib-utilsCore"]
+moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
+ktor = ["ktor", "ktor-logging", "ktor-auth"]
 
 [plugins]
 versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker"}
