@@ -10,7 +10,7 @@ versionChecker = "0.39.0"
 settings = "0.8"
 
 #Mersey libs
-kmmLibrary = "1.4.1"
+kmmLibrary = "1.4.2"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
