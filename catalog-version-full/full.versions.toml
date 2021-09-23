@@ -40,7 +40,7 @@ phoneValidator = "8.12.26"
 
 firebaseMessaging = "22.0.0"
 
-merseyLib = "1.5.0"
+merseyLib = "1.5.1"
 filemanager = "1.0.6"
 firestoreCoroutines = "1.0.2"
 
