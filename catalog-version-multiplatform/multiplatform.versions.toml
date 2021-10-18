@@ -1,6 +1,6 @@
 [versions]
 coroutines = "1.5.2-native-mt"
-serialization = "1.3.0-RC"
+serialization = "1.3.0"
 ktor = "1.6.2"
 moko-mvvm = "0.11.0"
 koin = "3.1.2"
@@ -10,7 +10,7 @@ versionChecker = "0.39.0"
 settings = "0.8"
 
 #Mersey libs
-kmmLibrary = "1.4.2"
+kmmLibrary = "1.4.3"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
