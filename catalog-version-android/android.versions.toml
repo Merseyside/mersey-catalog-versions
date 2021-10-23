@@ -34,13 +34,14 @@ sqldelight = "1.5.0"
 moko-mvvm = "0.11.0"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.26"
+zip4j = "2.9.0"
 
 firebaseMessaging = "22.0.0"
 
-merseyLib = "1.5.4"
+merseyLib = "1.5.5"
 kmmLibrary = "1.4.3"
-filemanager = "1.0.6"
-firestoreCoroutines = "1.0.2"
+filemanager = "1.0.7"
+firestoreCoroutines = "1.0.3"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
@@ -80,6 +81,7 @@ koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 sqldelight = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqldelight" }
 bouncyCastle = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncyCastle" }
 phoneValidator = { module = "com.googlecode.libphonenumber:libphonenumber", version.ref = "phoneValidator" }
+zip4j = { module = "net.lingala.zip4j:zip4j", version.ref = "zip4j" }
 
 ktor = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
 ktor-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
