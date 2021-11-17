@@ -1,6 +1,6 @@
 [versions]
-kotlin = "1.5.31"
-serialization = "1.3.0"
+kotlin = "1.6.0"
+serialization = "1.3.1"
 
 appCompat = "1.3.1"
 activity = "1.3.1"
@@ -29,8 +29,8 @@ coil = "1.3.2"
 typedDataStore = "1.0.0"
 location = "18.0.0"
 ktor = "1.6.2"
-koin = "3.1.2"
-sqldelight = "1.5.0"
+koin = "3.1.3"
+sqldelight = "1.5.2"
 moko-mvvm = "0.11.0"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.26"
@@ -38,7 +38,7 @@ zip4j = "2.9.0"
 
 firebaseMessaging = "22.0.0"
 
-merseyLib = "1.6.1"
+merseyLib = "1.6.6"
 kmmLibrary = "1.4.3"
 filemanager = "1.0.7"
 firestoreCoroutines = "1.0.3"
