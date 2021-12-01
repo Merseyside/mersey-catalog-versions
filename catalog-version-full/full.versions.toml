@@ -1,47 +1,47 @@
 [versions]
 kotlin = "1.6.0"
 serialization = "1.3.1"
-ktor = "1.6.2"
-koin = "3.1.3"
+ktor = "1.6.6"
+koin = "3.1.4"
 kmmLibrary = "1.4.3"
 moko-mvvm = "0.11.0"
 versionChecker = "0.39.0"
-sqldelight = "1.5.2"
+sqldelight = "1.5.3"
 
 # android
-appCompat = "1.3.1"
-activity = "1.3.1"
+appCompat = "1.4.0"
+activity = "1.4.0"
 annotation = "1.2.0-alpha01"
 material = "1.4.0"
 coroutines = "1.5.2"
-fragment = "1.3.6"
-constraintLayout = "2.0.4"
-lifecycle = "2.3.1"
+fragment = "1.4.0"
+constraintLayout = "2.0.3"
+lifecycle = "2.4.0"
 cardView = "1.0.0"
 recyclerView = "1.2.1"
 dagger = "2.38.1"
-navigation = "2.3.5"
+navigation = "2.4.0-beta02"
 paging = "3.0.1"
 billing = "4.0.0"
 publisher = "v3-rev20210728-1.32.1"
 auth = "1.0.0"
-firebaseFirestore = "23.0.3"
+firebaseFirestore = "24.0.0"
 playCore = "1.10.1"
 keyboard = "3.0.0-RC3"
 gson = "2.8.8"
-worker = "2.6.0"
+worker = "2.7.1"
 room = "2.3.0"
 rxjava2 = "2.2.20"
-coil = "1.3.2"
+coil = "1.4.0"
 typedDataStore = "1.0.0"
 location = "18.0.0"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.26"
 zip4j = "2.9.0"
 
-firebaseMessaging = "22.0.0"
+firebaseMessaging = "23.0.0"
 
-merseyLib = "1.6.6"
+merseyLib = "1.6.9"
 filemanager = "1.0.7"
 firestoreCoroutines = "1.0.3"
 
@@ -49,7 +49,7 @@ time = "1.0.5"
 
 # multiplatform
 multiplatform-coroutines = "1.5.2-native-mt"
-moko-resources = "0.15.1"
+moko-resources = "0.17.2"
 settings = "0.8"
 
 [libraries]
@@ -147,4 +147,4 @@ multiplatform-ktor = ["multiplatform-ktor", "multiplatform-ktor-logging", "multi
 multiplatform-merseyLibs = ["multiplatform-merseyLib-archyCore", "multiplatform-merseyLib-utilsCore"]
 
 [plugins]
-versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker"}
+versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
