@@ -1,5 +1,8 @@
 [versions]
+
+# Common
 kotlin = "1.6.0"
+coroutines = "1.5.2"
 serialization = "1.3.1"
 ktor = "1.6.6"
 koin = "3.1.4"
@@ -8,12 +11,14 @@ moko-mvvm = "0.11.0"
 versionChecker = "0.39.0"
 sqldelight = "1.5.3"
 
-# android
+time = "1.0.5"
+kotlin-ext = "1.0.2"
+
+# Android
 appCompat = "1.4.0"
 activity = "1.4.0"
 annotation = "1.2.0-alpha01"
 material = "1.4.0"
-coroutines = "1.5.2"
 fragment = "1.4.0"
 constraintLayout = "2.0.3"
 lifecycle = "2.4.0"
@@ -38,24 +43,27 @@ location = "18.0.0"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.26"
 zip4j = "2.9.0"
-
 firebaseMessaging = "23.0.0"
 
-merseyLib = "1.6.9"
+merseyLib = "1.7.0"
 filemanager = "1.0.7"
 firestoreCoroutines = "1.0.3"
 
-time = "1.0.5"
-
-# multiplatform
+# Multiplatform
 multiplatform-coroutines = "1.5.2-native-mt"
 moko-resources = "0.17.2"
 settings = "0.8"
 
 [libraries]
+#Common libraries
 serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref="serialization" }
-merseyLib-time = { module = "io.github.merseyside:time", version.ref = "time" }
+reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 
+merseyLib-time = { module = "io.github.merseyside:time", version.ref = "time" }
+merseyLib-kotlin-ext = { module = "io.github.merseyside:kotlin-ext", version.ref = "kotlin-ext" }
+
+#Android libraries
 android-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 android-appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
 android-activityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
@@ -70,7 +78,6 @@ android-cardView = { module = "androidx.cardview:cardview", version.ref = "cardV
 android-annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
 android-rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava2" }
 android-paging = { module = "androidx.paging:paging-runtime", version.ref = "paging" }
-android-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 android-playCore = { module = "com.google.android.play:core", version.ref = "playCore" }
 android-billing = { module = "com.android.billingclient:billing-ktx", version.ref = "billing" }
 android-publisher = { module = "com.google.apis:google-api-services-androidpublisher", version.ref = "publisher" }
@@ -90,6 +97,7 @@ android-coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 android-typedDataStore = { module = "androidx.datastore:datastore", version.ref = "typedDataStore" }
 android-location = { module = "com.google.android.gms:play-services-location", version.ref = "location" }
 android-koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+android-koin-navigation = { module = "io.insert-koin:koin-androidx-navigation", version.ref = "koin"}
 android-sqldelight = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqldelight" }
 android-bouncyCastle = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncyCastle" }
 android-phoneValidator = { module = "com.googlecode.libphonenumber:libphonenumber", version.ref = "phoneValidator" }
@@ -141,6 +149,7 @@ android-room = ["android-room", "android-roomKtx"]
 android-merseyLibs = ["android-merseyLib-archy", "android-merseyLib-adapters", "android-merseyLib-animators", "android-merseyLib-utils"]
 android-moko-mvvm = ["android-moko-mvvmDatabinding", "android-moko-mvvmViewBinding", "android-moko-mvvmLiveDataMaterial"]
 android-ktor = ["android-ktor", "android-ktor-okhttp"]
+android-koin = ["android-koin", "android-koin-navigation"]
 
 multiplatform-moko-mvvm = ["multiplatform-moko-mvvm", "multiplatform-moko-mvvm-livedata"]
 multiplatform-ktor = ["multiplatform-ktor", "multiplatform-ktor-logging", "multiplatform-ktor-auth"]

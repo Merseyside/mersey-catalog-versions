@@ -38,7 +38,7 @@ zip4j = "2.9.0"
 
 firebaseMessaging = "23.0.0"
 
-merseyLib = "1.6.9"
+merseyLib = "1.7.0"
 kmmLibrary = "1.4.3"
 filemanager = "1.0.7"
 firestoreCoroutines = "1.0.3"
@@ -58,7 +58,6 @@ cardView = { module = "androidx.cardview:cardview", version.ref = "cardView" }
 annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
 rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava2" }
 paging = { module = "androidx.paging:paging-runtime", version.ref = "paging" }
-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 playCore = { module = "com.google.android.play:core", version.ref = "playCore" }
 billing = { module = "com.android.billingclient:billing-ktx", version.ref = "billing" }
 publisher = { module = "com.google.apis:google-api-services-androidpublisher", version.ref = "publisher" }
@@ -78,6 +77,7 @@ coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 typedDataStore = { module = "androidx.datastore:datastore", version.ref = "typedDataStore" }
 location = { module = "com.google.android.gms:play-services-location", version.ref = "location" }
 koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koin-navigation = { module = "io.insert-koin:koin-androidx-navigation", version.ref = "koin"}
 sqldelight = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqldelight" }
 bouncyCastle = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncyCastle" }
 phoneValidator = { module = "com.googlecode.libphonenumber:libphonenumber", version.ref = "phoneValidator" }
@@ -107,3 +107,4 @@ room = ["room", "roomKtx"]
 merseyLibs = ["merseyLib-archy", "merseyLib-adapters", "merseyLib-animators", "merseyLib-utils"]
 moko-mvvm = ["moko-mvvm-databinding", "moko-mvvm-viewbinding", "moko-mvvm-livedata-material"]
 ktor = ["ktor", "ktor-okhttp"]
+koin = ["koin", "koin-navigation"]
