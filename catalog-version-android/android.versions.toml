@@ -91,10 +91,10 @@ moko-mvvm-viewbinding = { module = "dev.icerock.moko:mvvm-viewbinding", version.
 moko-mvvm-livedata-material = { module = "dev.icerock.moko:mvvm-livedata-material", version.ref = "moko-mvvm" }
 
 #Mersey libs
-merseyLib-archy = { module = "com.github.Merseyside.mersey-android-library:archy", version.ref="merseyLib" }
-merseyLib-adapters = { module = "com.github.Merseyside.mersey-android-library:adapters", version.ref="merseyLib" }
-merseyLib-animators = { module = "com.github.Merseyside.mersey-android-library:animators", version.ref="merseyLib" }
-merseyLib-utils = { module = "com.github.Merseyside.mersey-android-library:utils", version.ref="merseyLib" }
+merseyLib-archy = { module = "io.github.merseyside:archy", version.ref="merseyLib" }
+merseyLib-adapters = { module = "io.github.merseyside:adapters", version.ref="merseyLib" }
+merseyLib-animators = { module = "io.github.merseyside:animators", version.ref="merseyLib" }
+merseyLib-utils = { module = "io.github.merseyside:utils", version.ref="merseyLib" }
 merseyLib-filemanager = { module = "com.github.Merseyside:android-filemanager", version.ref="filemanager" }
 merseyLib-firestoreCoroutines = { module = "com.github.Merseyside:firestore-coroutines", version.ref="firestoreCoroutines" }
 

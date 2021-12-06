@@ -113,10 +113,10 @@ android-moko-mvvmLiveDataMaterial = { module = "dev.icerock.moko:mvvm-livedata-m
 android-firebase-messaging = { module = "com.google.firebase:firebase-messaging-ktx", version.ref="firebaseMessaging" }
 
 # Mersey libs
-android-merseyLib-archy = { module = "com.github.Merseyside.mersey-android-library:archy", version.ref="merseyLib" }
-android-merseyLib-adapters = { module = "com.github.Merseyside.mersey-android-library:adapters", version.ref="merseyLib"}
-android-merseyLib-animators = { module = "com.github.Merseyside.mersey-android-library:animators", version.ref="merseyLib" }
-android-merseyLib-utils = { module = "com.github.Merseyside.mersey-android-library:utils", version.ref="merseyLib" }
+android-merseyLib-archy = { module = "io.github.merseyside:archy", version.ref="merseyLib" }
+android-merseyLib-adapters = { module = "io.github.merseyside:adapters", version.ref="merseyLib"}
+android-merseyLib-animators = { module = "io.github.merseyside:animators", version.ref="merseyLib" }
+android-merseyLib-utils = { module = "io.github.merseyside:utils", version.ref="merseyLib" }
 android-merseyLib-filemanager = { module = "com.github.Merseyside:android-filemanager", version.ref="filemanager" }
 android-merseyLib-firestoreCoroutines = { module = "com.github.Merseyside:firestore-coroutines", version.ref="firestoreCoroutines" }
 
