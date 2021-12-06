@@ -12,7 +12,7 @@ versionChecker = "0.39.0"
 sqldelight = "1.5.3"
 
 time = "1.0.5"
-kotlin-ext = "1.0.2"
+kotlin-ext = "1.0.3"
 
 # Android
 appCompat = "1.4.0"
@@ -45,7 +45,7 @@ phoneValidator = "8.12.26"
 zip4j = "2.9.0"
 firebaseMessaging = "23.0.0"
 
-merseyLib = "1.7.0"
+merseyLib = "1.7.1"
 filemanager = "1.0.7"
 firestoreCoroutines = "1.0.3"
 
