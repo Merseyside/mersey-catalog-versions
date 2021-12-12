@@ -11,8 +11,8 @@ moko-mvvm = "0.11.0"
 versionChecker = "0.39.0"
 sqldelight = "1.5.3"
 
-time = "1.0.5"
-kotlin-ext = "1.0.3"
+time = "1.0.6"
+kotlin-ext = "1.0.4"
 
 # Android
 appCompat = "1.4.0"
@@ -53,6 +53,7 @@ firestoreCoroutines = "1.0.3"
 multiplatform-coroutines = "1.5.2-native-mt"
 moko-resources = "0.17.2"
 settings = "0.8"
+uuid = "0.3.1"
 
 [libraries]
 #Common libraries
@@ -128,7 +129,8 @@ multiplatform-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serializ
 multiplatform-koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 multiplatform-sqldelight = { module = "com.squareup.sqldelight:runtime", version.ref = "sqldelight" }
 multiplatform-sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
-multiplatform-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings"}
+multiplatform-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings" }
+multiplatform-uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
 
 multiplatform-ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 multiplatform-ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
