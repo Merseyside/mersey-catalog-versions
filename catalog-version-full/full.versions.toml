@@ -6,13 +6,13 @@ coroutines = "1.5.2"
 serialization = "1.3.1"
 ktor = "1.6.6"
 koin = "3.1.4"
-kmmLibrary = "1.4.3"
+kmmLibrary = "1.4.4"
 moko-mvvm = "0.11.0"
 versionChecker = "0.39.0"
 sqldelight = "1.5.3"
 
 time = "1.0.6"
-kotlin-ext = "1.0.4"
+kotlin-ext = "1.0.5"
 
 # Android
 appCompat = "1.4.0"
@@ -45,7 +45,7 @@ phoneValidator = "8.12.26"
 zip4j = "2.9.0"
 firebaseMessaging = "23.0.0"
 
-merseyLib = "1.7.1"
+merseyLib = "1.7.2"
 filemanager = "1.0.7"
 firestoreCoroutines = "1.0.3"
 

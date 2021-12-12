@@ -38,8 +38,8 @@ zip4j = "2.9.0"
 
 firebaseMessaging = "23.0.0"
 
-merseyLib = "1.7.1"
-kmmLibrary = "1.4.3"
+merseyLib = "1.7.2"
+kmmLibrary = "1.4.4"
 filemanager = "1.0.7"
 firestoreCoroutines = "1.0.3"
 
