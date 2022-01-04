@@ -56,7 +56,7 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-merseyLib = "1.7.6"
+merseyLib = "1.7.7"
 kmmLibrary = "1.4.5"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
