@@ -13,8 +13,8 @@ lifecycle = "2.4.0"
 cardView = "1.0.0"
 recyclerView = "1.2.1"
 dagger = "2.38.1"
-navigation = "2.4.0-beta02"
-paging = "3.0.1"
+navigation = "2.4.0-rc01"
+paging = "3.1.0"
 billing = "4.0.0"
 publisher = "v3-rev20210728-1.32.1"
 auth = "1.0.0"
@@ -28,7 +28,7 @@ coil = "1.4.0"
 typedDataStore = "1.0.0"
 location = "18.0.0"
 ktor = "1.6.7"
-koin = "3.1.4"
+koin = "3.1.5"
 sqldelight = "1.5.3"
 moko-mvvm = "0.11.0"
 bouncyCastle = "1.65"
@@ -56,7 +56,7 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-merseyLib = "1.7.7"
+merseyLib = "1.8.0"
 kmmLibrary = "1.4.5"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
@@ -137,7 +137,7 @@ merseyLib-archy = { module = "io.github.merseyside:archy", version.ref="merseyLi
 merseyLib-adapters = { module = "io.github.merseyside:adapters", version.ref="merseyLib" }
 merseyLib-animators = { module = "io.github.merseyside:animators", version.ref="merseyLib" }
 merseyLib-utils = { module = "io.github.merseyside:utils", version.ref="merseyLib" }
-merseyLib-filemanager = { module = "io.github.merseyside:android-filemanager", version.ref="filemanager" }
+merseyLib-filemanager = { module = "io.github.merseyside:filemanager", version.ref="filemanager" }
 merseyLib-firestoreCoroutines = { module = "io.github.merseyside:firestore-coroutines", version.ref="firestoreCoroutines" }
 merseyLib-quickAction = { module = "io.github.merseyside:quickaction", version.ref = "quickAction" }
 
