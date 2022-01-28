@@ -13,7 +13,7 @@ lifecycle = "2.4.0"
 cardView = "1.0.0"
 recyclerView = "1.2.1"
 dagger = "2.38.1"
-navigation = "2.4.0-rc01"
+navigation = "2.4.0"
 paging = "3.1.0"
 billing = "4.0.0"
 publisher = "v3-rev20210728-1.32.1"
@@ -56,7 +56,7 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-merseyLib = "1.8.0"
+merseyLib = "1.8.1"
 kmmLibrary = "1.4.5"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
@@ -100,6 +100,7 @@ sqldelight = { module = "com.squareup.sqldelight:android-driver", version.ref = 
 bouncyCastle = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncyCastle" }
 phoneValidator = { module = "com.googlecode.libphonenumber:libphonenumber", version.ref = "phoneValidator" }
 zip4j = { module = "net.lingala.zip4j:zip4j", version.ref = "zip4j" }
+sqldelight-paging = { module = "com.squareup.sqldelight:android-paging3-extensions", version.ref = "sqldelight" }
 cicerone = { module = "com.github.terrakok:cicerone", version.ref = "cicerone" }
 materialRangeBar = { module = "com.appyvet:materialrangebar", version.ref = "materialRangeBar" }
 encryptor = { module = "com.mobapphome.library:mah-encryptor-lib", version.ref = "encryptor" }

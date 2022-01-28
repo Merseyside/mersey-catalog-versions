@@ -12,7 +12,7 @@ versionChecker = "0.39.0"
 sqldelight = "1.5.3"
 
 time = "1.0.8"
-kotlin-ext = "1.0.8"
+kotlin-ext = "1.0.9"
 
 # Android
 appCompat = "1.4.0"
@@ -25,7 +25,7 @@ lifecycle = "2.4.0"
 cardView = "1.0.0"
 recyclerView = "1.2.1"
 dagger = "2.38.1"
-navigation = "2.4.0-rc01"
+navigation = "2.4.0"
 paging = "3.1.0"
 billing = "4.0.0"
 publisher = "v3-rev20210728-1.32.1"
@@ -55,7 +55,7 @@ retrofitCoroutineAdapter = "0.9.2"
 retrofitLoggingInterceptor = "4.9.3"
 
 #Mersey libs
-merseyLib = "1.8.0"
+merseyLib = "1.8.1"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
 quickAction = "2.4.7"
@@ -74,8 +74,10 @@ multiplatform-coroutines = "1.6.0-native-mt"
 moko-resources = "0.17.2"
 moko-maps-google = "0.6.0"
 moko-maps = "0.6.0"
+moko-paging = "0.5.0"
 settings = "0.8"
 uuid = "0.3.1"
+kmm-paging = "0.4.6"
 
 [libraries]
 #Common libraries
@@ -124,6 +126,7 @@ android-sqldelight = { module = "com.squareup.sqldelight:android-driver", versio
 android-bouncyCastle = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncyCastle" }
 android-phoneValidator = { module = "com.googlecode.libphonenumber:libphonenumber", version.ref = "phoneValidator" }
 android-zip4j = { module = "net.lingala.zip4j:zip4j", version.ref = "zip4j" }
+android-sqldelight-paging = { module = "com.squareup.sqldelight:android-paging3-extensions", version.ref = "sqldelight" }
 android-cicerone = { module = "com.github.terrakok:cicerone", version.ref = "cicerone" }
 android-materialRangeBar = { module = "com.appyvet:materialrangebar", version.ref = "materialRangeBar" }
 android-encryptor = { module = "com.mobapphome.library:mah-encryptor-lib", version.ref = "encryptor" }
@@ -175,6 +178,7 @@ multiplatform-sqldelight = { module = "com.squareup.sqldelight:runtime", version
 multiplatform-sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
 multiplatform-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings" }
 multiplatform-uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
+multiplatform-kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "kmm-paging" }
 
 multiplatform-ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 multiplatform-ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
@@ -185,6 +189,7 @@ multiplatform-moko-mvvm-livedata = { module = "dev.icerock.moko:mvvm-livedata", 
 multiplatform-moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
 multiplatform-moko-maps-google = { module = "dev.icerock.moko:maps-google", version.ref = "moko-maps-google" }
 multiplatform-moko-maps = { module = "dev.icerock.moko:maps", version.ref = "moko-maps" }
+multiplatform-moko-paging = { module = "dev.icerock.moko:paging", version.ref = "moko-paging" }
 
 # Mersey libs
 multiplatform-merseyLib-archyCore = { module = "io.github.merseyside:archy-core", version.ref = "kmmLibrary" }

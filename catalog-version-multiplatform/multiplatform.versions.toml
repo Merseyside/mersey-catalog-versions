@@ -7,8 +7,10 @@ koin = "3.1.5"
 sqldelight = "1.5.3"
 moko-resources = "0.17.2"
 versionChecker = "0.39.0"
+moko-paging = "0.5.0"
 settings = "0.8"
 uuid = "0.3.1"
+kmm-paging = "0.4.6"
 
 #Mersey libs
 kmmLibrary = "1.4.5"
@@ -21,6 +23,7 @@ sqldelight = { module = "com.squareup.sqldelight:runtime", version.ref = "sqldel
 sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
 settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings"}
 uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
+kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "kmm-paging" }
 
 moko-mvvm = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
 moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
