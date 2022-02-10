@@ -11,13 +11,12 @@ moko-mvvm = "0.11.0"
 versionChecker = "0.39.0"
 sqldelight = "1.5.3"
 
-time = "1.0.8"
+time = "1.1.0"
 kotlin-ext = "1.0.9"
 
 # Android
 appCompat = "1.4.0"
 activity = "1.4.0"
-annotation = "1.2.0-alpha01"
 material = "1.4.0"
 fragment = "1.4.0"
 constraintLayout = "2.0.3"
@@ -47,6 +46,7 @@ materialRangeBar = "1.4.7"
 encryptor = "1.0.1"
 grpc = "1.43.1"
 cameraVision = "20.1.0"
+desugarJdk = "1.1.5"
 
 #Retrofit
 retrofit = "2.9.0"
@@ -55,7 +55,7 @@ retrofitCoroutineAdapter = "0.9.2"
 retrofitLoggingInterceptor = "4.9.3"
 
 #Mersey libs
-merseyLib = "1.8.1"
+merseyLib = "1.8.2"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
 quickAction = "2.4.7"
@@ -100,7 +100,6 @@ android-lifecycleViewModel = { module = "androidx.lifecycle:lifecycle-viewmodel-
 android-lifecycleViewModelSavedState = { module = "androidx.lifecycle:lifecycle-viewmodel-savedstate", version.ref = "lifecycle" }
 android-lifecycleLiveDataKtx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
 android-cardView = { module = "androidx.cardview:cardview", version.ref = "cardView" }
-android-annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
 android-rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava2" }
 android-paging = { module = "androidx.paging:paging-runtime", version.ref = "paging" }
 android-playCore = { module = "com.google.android.play:core", version.ref = "playCore" }
@@ -133,6 +132,7 @@ android-encryptor = { module = "com.mobapphome.library:mah-encryptor-lib", versi
 android-grpc-okhttp = { module = "io.grpc:grpc-okhttp", version.ref = "grpc" }
 android-grpc-core = { module = "io.grpc:grpc-core", version.ref = "grpc" }
 android-camera-vision = { module = "com.google.android.gms:play-services-vision", version.ref = "cameraVision" }
+android-desugarJdk = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugarJdk" }
 
 #Ktor
 android-ktor = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
