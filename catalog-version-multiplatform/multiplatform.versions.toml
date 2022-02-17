@@ -2,15 +2,16 @@
 coroutines = "1.6.0-native-mt"
 serialization = "1.3.2"
 ktor = "1.6.7"
-moko-mvvm = "0.11.0"
 koin = "3.1.5"
 sqldelight = "1.5.3"
-moko-resources = "0.17.2"
 versionChecker = "0.39.0"
-moko-paging = "0.5.0"
 settings = "0.8"
 uuid = "0.3.1"
-kmm-paging = "0.4.6"
+
+moko-mvvm = "0.11.0"
+moko-resources = "0.18.0"
+moko-maps = "0.6.0"
+moko-paging = "0.5.0"
 
 #Mersey libs
 kmmLibrary = "1.4.5"
@@ -23,11 +24,13 @@ sqldelight = { module = "com.squareup.sqldelight:runtime", version.ref = "sqldel
 sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
 settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings"}
 uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
-kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "kmm-paging" }
 
 moko-mvvm = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
-moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
 moko-mvvm-livedata = { module = "dev.icerock.moko:mvvm-livedata", version.ref = "moko-mvvm" }
+moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
+moko-maps-google = { module = "dev.icerock.moko:maps-google", version.ref = "moko-maps" }
+moko-maps = { module = "dev.icerock.moko:maps", version.ref = "moko-maps" }
+moko-paging = { module = "dev.icerock.moko:paging", version.ref = "moko-paging" }
 
 ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
