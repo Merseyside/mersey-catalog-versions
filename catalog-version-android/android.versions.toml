@@ -29,7 +29,6 @@ location = "18.0.0"
 ktor = "1.6.7"
 koin = "3.1.5"
 sqldelight = "1.5.3"
-moko-mvvm = "0.11.0"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.26"
 zip4j = "2.9.0"
@@ -39,6 +38,10 @@ encryptor = "1.0.1"
 grpc = "1.43.1"
 cameraVision = "20.1.0"
 desugarJdk = "1.1.5"
+
+# Moko
+moko-mvvm = "0.11.0"
+moko-resources = "0.18.0"
 
 #Retrofit
 retrofit = "2.9.0"
@@ -116,6 +119,7 @@ ktor-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
 moko-mvvm-databinding = { module = "dev.icerock.moko:mvvm-databinding", version.ref = "moko-mvvm" }
 moko-mvvm-viewbinding = { module = "dev.icerock.moko:mvvm-viewbinding", version.ref = "moko-mvvm" }
 moko-mvvm-livedata-material = { module = "dev.icerock.moko:mvvm-livedata-material", version.ref = "moko-mvvm" }
+moko-resources-compose = { module = "dev.icerock.moko:resources-compose", version.ref = "moko-resources" }
 
 #Retrofit
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }

@@ -1,0 +1,22 @@
+[versions]
+kotlin = "1.6.20-M1"
+versionChecker = "0.42.0"
+mokoKSwift = "0.3.0"
+swiftPackage = "2.0.3"
+
+
+[plugins]
+androidLibrary = { id = "com.android.library" }
+androidApplication = { id = "com.android.application" }
+kotlinKapt = { id = "kotlin-kapt" }
+kotlinAndroid = { id = "kotlin-android" }
+mobileMultiplatform = { id = "dev.icerock.mobile.multiplatform" }
+signing = { id = "signing" }
+kotlinSerialization = { id = "kotlinx-serialization" }
+mavenPublish = { id = "maven-publish" }
+nexusConfig = { id = "nexus-config" }
+
+nativeCocoaPods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+moko-KSwift = { id = "dev.icerock.moko:kswift-gradle-plugin", version.ref = "mokoKSwift" }
+versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
+swiftPackage = { id = "com.chromaticnoise.multiplatform-swiftpackage", version.ref = "swiftPackage" }

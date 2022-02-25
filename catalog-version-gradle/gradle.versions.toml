@@ -1,0 +1,39 @@
+[versions]
+kotlin = "1.6.20-M1"
+
+androidGradle = "7.3.0-alpha03"
+androidNavigation = "2.5.0-alpha01"
+
+mokoMobileMultiplatform = "0.12.0"
+mokoResources = "0.18.0"
+
+sqlDelight = "1.5.3"
+googleServices = "4.3.8"
+nexusPublish = "1.1.0"
+
+[libraries]
+# Android
+android-gradle = { module = "com.android.tools.build:gradle", version.ref = "androidGradle" }
+android-gradleApi = { module = "com.android.tools.build:gradle-api", version.ref = "androidGradle" }
+android-navigation-safeArgs = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "androidNavigation" }
+
+# Kotlin
+kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
+kotlin-dokka = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "kotlin" }
+
+# Other
+sqlDelight = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "sqlDelight" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+nexusPublish = { module = "io.github.gradle-nexus:publish-plugin", version.ref= "nexusPublish" }
+
+# Moko
+moko-mobileMultiplatform = { module = "dev.icerock:mobile-multiplatform", version.ref = "mokoMobileMultiplatform" }
+moko-resourcesGenerator = { module = "dev.icerock.moko:resources-generator", version.ref = "mokoResources" }
+
+
+
+
+
+
+
