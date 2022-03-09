@@ -60,7 +60,7 @@ firabaseMessaging = "23.0.0"
 
 #Mersey libs
 merseyLib = "1.8.2"
-kmmLibrary = "1.4.5"
+kmmLibrary = "1.4.6"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
 quickAction = "2.4.7"

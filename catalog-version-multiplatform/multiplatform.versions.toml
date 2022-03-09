@@ -15,7 +15,7 @@ moko-paging = "0.5.0"
 moko-kswift = "0.3.0"
 
 #Mersey libs
-kmmLibrary = "1.4.5"
+kmmLibrary = "1.4.6"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
