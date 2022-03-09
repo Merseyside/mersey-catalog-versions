@@ -40,7 +40,7 @@ cameraVision = "20.1.0"
 desugarJdk = "1.1.5"
 
 # Moko
-moko-mvvm = "0.11.0"
+moko-mvvm = "0.12.0"
 moko-resources = "0.18.0"
 
 #Retrofit
