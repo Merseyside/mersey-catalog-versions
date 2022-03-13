@@ -1,8 +1,9 @@
 [versions]
-kotlin = "1.6.20-M1"
+kotlin = "1.6.20-RC"
 versionChecker = "0.42.0"
 mokoKSwift = "0.3.0"
 swiftPackage = "2.0.3"
+pluginPublish = "0.15.0"
 
 
 [plugins]
@@ -20,3 +21,4 @@ nativeCocoaPods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = 
 moko-KSwift = { id = "dev.icerock.moko:kswift-gradle-plugin", version.ref = "mokoKSwift" }
 versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
 swiftPackage = { id = "com.chromaticnoise.multiplatform-swiftpackage", version.ref = "swiftPackage" }
+pluginPublish = { id = "com.gradle.plugin-publish", version.ref= "pluginPublish" }

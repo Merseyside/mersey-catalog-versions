@@ -213,7 +213,3 @@ android-retrofit = ["android-retrofit", "android-retrofit-converter", "android-r
 multiplatform-moko-mvvm = ["multiplatform-moko-mvvm", "multiplatform-moko-mvvm-livedata"]
 multiplatform-ktor = ["multiplatform-ktor", "multiplatform-ktor-logging", "multiplatform-ktor-auth"]
 multiplatform-merseyLibs = ["multiplatform-merseyLib-archyCore", "multiplatform-merseyLib-utilsCore"]
-
-[plugins]
-versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
-androidLibrary = { id = "com.android.library" }
