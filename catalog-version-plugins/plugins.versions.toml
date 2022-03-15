@@ -1,24 +1,32 @@
 [versions]
 kotlin = "1.6.20-RC"
 versionChecker = "0.42.0"
-mokoKSwift = "0.3.0"
+moko-kswift = "0.4.0"
 swiftPackage = "2.0.3"
 pluginPublish = "0.15.0"
+mersey-plugins = "1.0.1"
 
 
 [plugins]
-androidLibrary = { id = "com.android.library" }
-androidApplication = { id = "com.android.application" }
-kotlinKapt = { id = "kotlin-kapt" }
-kotlinAndroid = { id = "kotlin-android" }
-mobileMultiplatform = { id = "dev.icerock.mobile.multiplatform" }
+android-library = { id = "com.android.library" }
+android-application = { id = "com.android.application" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform" }
+kotlin-kapt = { id = "kotlin-kapt" }
+kotlin-serialization = { id = "kotlinx-serialization" }
+kotlin-android = { id = "kotlin-android" }
 signing = { id = "signing" }
-kotlinSerialization = { id = "kotlinx-serialization" }
 mavenPublish = { id = "maven-publish" }
 nexusConfig = { id = "nexus-config" }
 
-nativeCocoaPods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
-moko-KSwift = { id = "dev.icerock.moko:kswift-gradle-plugin", version.ref = "mokoKSwift" }
+moko-multiplatform = { id = "dev.icerock.mobile.multiplatform" }
+moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "moko-kswift" }
+
+#Mersey plugins
+mersey-android-convention = { id = "io.github.merseyside.android-convention", version.ref = "mersey-plugins" }
+mersey-kotlin-convention = { id = "io.github.merseyside.kotlin-convention", version.ref = "mersey-plugins" }
+
+cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+
 versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
 swiftPackage = { id = "com.chromaticnoise.multiplatform-swiftpackage", version.ref = "swiftPackage" }
 pluginPublish = { id = "com.gradle.plugin-publish", version.ref= "pluginPublish" }
