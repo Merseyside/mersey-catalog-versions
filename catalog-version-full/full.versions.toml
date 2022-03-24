@@ -79,7 +79,7 @@ moko-kswift = "0.4.0"
 
 settings = "0.8"
 uuid = "0.3.1"
-paging = "0.4.6"
+multiplatform-paging = "0.4.6"
 bignum = "2.4.12"
 
 [libraries]
@@ -182,7 +182,7 @@ multiplatform-sqldelight = { module = "com.squareup.sqldelight:runtime", version
 multiplatform-sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
 multiplatform-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings" }
 multiplatform-uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
-multiplatform-kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "paging" }
+multiplatform-kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "multiplatform-paging" }
 multiplatform-bignum = { module = "com.soywiz.korlibs.kbignum:kbignum", version.ref = "bignum" }
 
 multiplatform-ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
