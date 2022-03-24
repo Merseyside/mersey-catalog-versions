@@ -1,4 +1,4 @@
 object Metadata {
     const val groupId = "io.github.merseyside"
-    const val version = "1.3.4"
+    const val version = "1.3.5"
 }

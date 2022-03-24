@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.6.20-RC"
+kotlin = "1.6.20-RC2"
 versionChecker = "0.42.0"
 moko-kswift = "0.4.0"
 swiftPackage = "2.0.3"
