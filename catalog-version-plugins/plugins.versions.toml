@@ -1,10 +1,10 @@
 [versions]
 kotlin = "1.6.20-RC2"
 versionChecker = "0.42.0"
-moko-kswift = "0.4.0"
+mokoKswift = "0.4.0"
 swiftPackage = "2.0.3"
 pluginPublish = "0.15.0"
-mersey-plugins = "1.0.1"
+merseyPlugins = "1.0.3"
 
 [plugins]
 android-library = { id = "com.android.library" }
@@ -20,12 +20,12 @@ nexusConfig = { id = "nexus-config" }
 sqldelight = { id = "com.squareup.sqldelight" }
 
 moko-multiplatform = { id = "dev.icerock.mobile.multiplatform" }
-moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "moko-kswift" }
+moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "mokoKswift" }
 moko-resources = { id = "dev.icerock.mobile.multiplatform-resources" }
 
 #Mersey plugins
-mersey-android-convention = { id = "io.github.merseyside.android-convention", version.ref = "mersey-plugins" }
-mersey-kotlin-convention = { id = "io.github.merseyside.kotlin-convention", version.ref = "mersey-plugins" }
+mersey-android-convention = { id = "io.github.merseyside.android-convention", version.ref = "merseyPlugins" }
+mersey-kotlin-convention = { id = "io.github.merseyside.kotlin-convention", version.ref = "merseyPlugins" }
 
 cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
 

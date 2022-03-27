@@ -7,13 +7,13 @@ androidNavigation = "2.5.0-alpha03"
 
 mokoMobileMultiplatform = "0.14.1"
 mokoResources = "0.18.0"
-moko-kswift = "0.4.0"
+mokoKswift = "0.4.0"
 
 sqlDelight = "1.5.3"
 googleServices = "4.3.8"
 nexusPublish = "1.1.0"
 
-merseyPlugins = "1.0.2"
+merseyPlugins = "1.0.3"
 
 [libraries]
 # Android
@@ -34,7 +34,7 @@ nexusPublish = { module = "io.github.gradle-nexus:publish-plugin", version.ref= 
 # Moko
 moko-mobileMultiplatform = { module = "dev.icerock:mobile-multiplatform", version.ref = "mokoMobileMultiplatform" }
 moko-resourcesGenerator = { module = "dev.icerock.moko:resources-generator", version.ref = "mokoResources" }
-moko-kswift = { module = "dev.icerock.moko:kswift-gradle-plugin", version.ref = "moko-kswift" }
+moko-kswift = { module = "dev.icerock.moko:kswift-gradle-plugin", version.ref = "mokoKswift" }
 
 # Mersey
 mersey-gradlePlugins = { module = "io.github.merseyside:plugins", version.ref = "merseyPlugins" }
