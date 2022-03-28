@@ -4,7 +4,7 @@ versionChecker = "0.42.0"
 mokoKswift = "0.4.0"
 swiftPackage = "2.0.3"
 pluginPublish = "0.15.0"
-merseyPlugins = "1.0.3"
+merseyPlugins = "1.0.4"
 
 [plugins]
 android-library = { id = "com.android.library" }

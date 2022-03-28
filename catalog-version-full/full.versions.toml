@@ -10,7 +10,7 @@ kmmLibrary = "1.4.7"
 versionChecker = "0.42.0"
 sqldelight = "1.5.3"
 
-time = "1.1.1"
+time = "1.1.2"
 kotlin-ext = "1.1.1"
 
 # Android

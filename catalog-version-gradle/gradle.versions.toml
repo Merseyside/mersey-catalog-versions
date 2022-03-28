@@ -13,7 +13,7 @@ sqlDelight = "1.5.3"
 googleServices = "4.3.8"
 nexusPublish = "1.1.0"
 
-merseyPlugins = "1.0.3"
+merseyPlugins = "1.0.4"
 
 [libraries]
 # Android
