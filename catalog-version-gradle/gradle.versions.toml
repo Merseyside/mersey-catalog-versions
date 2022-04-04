@@ -1,6 +1,6 @@
 [versions]
-kotlin = "1.6.20-RC2"
-kotlinDokka = "1.6.10"
+kotlin = "1.6.20"
+kotlinDokka = "1.6.20"
 
 androidGradle = "7.3.0-alpha06"
 androidNavigation = "2.5.0-alpha03"
@@ -38,10 +38,3 @@ moko-kswift = { module = "dev.icerock.moko:kswift-gradle-plugin", version.ref = 
 
 # Mersey
 mersey-gradlePlugins = { module = "io.github.merseyside:plugins", version.ref = "merseyPlugins" }
-
-
-
-
-
-
-

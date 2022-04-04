@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20-RC2")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20")
     implementation("io.github.gradle-nexus:publish-plugin:1.1.0")
 }
