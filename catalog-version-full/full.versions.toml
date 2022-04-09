@@ -54,7 +54,7 @@ retrofitCoroutineAdapter = "0.9.2"
 retrofitLoggingInterceptor = "4.9.3"
 
 #Mersey libs
-merseyLib = "1.8.7"
+merseyLib = "1.8.9"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
 quickAction = "2.4.7"
