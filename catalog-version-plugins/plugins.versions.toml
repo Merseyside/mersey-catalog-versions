@@ -1,7 +1,7 @@
 [versions]
 kotlin = "1.6.20"
 versionChecker = "0.42.0"
-mokoKswift = "0.4.0"
+mokoKswift = "0.5.0"
 swiftPackage = "2.0.3"
 pluginPublish = "0.15.0"
 merseyPlugins = "1.0.4"
@@ -10,10 +10,13 @@ merseyPlugins = "1.0.4"
 android-library = { id = "com.android.library" }
 android-application = { id = "com.android.application" }
 android-navigation-args = { id = "androidx.navigation.safeargs.kotlin" }
+
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform" }
 kotlin-kapt = { id = "kotlin-kapt" }
 kotlin-serialization = { id = "kotlinx-serialization" }
 kotlin-android = { id = "kotlin-android" }
+kotlin-parcelize = { id = "kotlin-parcelize" }
+
 signing = { id = "signing" }
 mavenPublish = { id = "maven-publish" }
 nexusConfig = { id = "nexus-config" }
