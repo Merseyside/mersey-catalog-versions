@@ -1,12 +1,12 @@
 [versions]
-kotlin = "1.6.20"
-kotlinDokka = "1.6.10"
+kotlin = "1.6.21"
+kotlinDokka = "1.6.21"
 
-androidGradle = "7.3.0-alpha07"
-androidNavigation = "2.5.0-alpha04"
+androidGradle = "7.3.0-alpha09"
+androidNavigation = "2.5.0-beta01"
 
 mokoMobileMultiplatform = "0.14.1"
-mokoResources = "0.19.0"
+mokoResources = "0.19.1"
 mokoKswift = "0.5.0"
 
 sqlDelight = "1.5.3"
