@@ -11,7 +11,7 @@ versionChecker = "0.42.0"
 sqldelight = "1.5.3"
 
 time = "1.1.2"
-kotlin-ext = "1.1.4"
+kotlin-ext = "1.1.6"
 
 # Android
 appCompat = "1.4.1"
