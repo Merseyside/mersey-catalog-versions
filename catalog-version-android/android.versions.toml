@@ -27,7 +27,7 @@ coil = "1.4.0"
 typedDataStore = "1.0.0"
 location = "19.0.1"
 ktor = "2.0.1"
-koin = "3.2.0-beta-1"
+koin = "3.2.0"
 sqldelight = "1.5.3"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.26"
@@ -41,7 +41,7 @@ desugarJdk = "1.1.5"
 
 # Moko
 moko-mvvm = "0.13.0"
-moko-resources = "0.19.1"
+moko-resources = "0.20.0"
 
 #Retrofit
 retrofit = "2.9.0"
@@ -59,7 +59,7 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-merseyLib = "1.9.2"
+merseyLib = "1.9.3"
 kmmLibrary = "1.4.9"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"

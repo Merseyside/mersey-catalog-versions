@@ -2,11 +2,11 @@
 kotlin = "1.6.21"
 kotlinDokka = "1.6.21"
 
-androidGradle = "7.3.0-alpha09"
+androidGradle = "7.4.0-alpha02"
 androidNavigation = "2.5.0-beta01"
 
 mokoMobileMultiplatform = "0.14.1"
-mokoResources = "0.19.1"
+mokoResources = "0.20.0"
 mokoKswift = "0.5.0"
 
 sqlDelight = "1.5.3"
