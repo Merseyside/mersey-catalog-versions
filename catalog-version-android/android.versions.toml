@@ -3,6 +3,7 @@ kotlin = "1.6.21"
 serialization = "1.3.2"
 
 appCompat = "1.4.1"
+androidx-core = "1.7.0"
 activity = "1.4.0"
 material = "1.5.0"
 coroutines = "1.6.1"
@@ -23,11 +24,11 @@ gson = "2.8.8"
 worker = "2.7.1"
 room = "2.4.2"
 rxjava2 = "2.2.20"
-coil = "1.4.0"
+coil = "2.0.0"
 typedDataStore = "1.0.0"
 location = "19.0.1"
 ktor = "2.0.1"
-koin = "3.2.0"
+koin = "3.2.0-beta-1"
 sqldelight = "1.5.3"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.26"
@@ -59,7 +60,7 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-merseyLib = "1.9.3"
+merseyLib = "1.9.5"
 kmmLibrary = "1.4.9"
 filemanager = "1.0.8"
 firestoreCoroutines = "1.0.4"
@@ -68,6 +69,7 @@ quickAction = "2.4.7"
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core"}
 activityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
 fragment = { module = "androidx.fragment:fragment", version.ref = "fragment" }
