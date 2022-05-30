@@ -4,7 +4,7 @@ kotlinDokka = "1.6.21"
 
 androidGradleStable = "7.2.0"
 androidGradle = "7.4.0-alpha02"
-androidNavigation = "2.5.0-beta01"
+androidNavigation = "2.5.0-rc01"
 
 mokoMobileMultiplatform = "0.14.1"
 mokoResources = "0.20.0"
