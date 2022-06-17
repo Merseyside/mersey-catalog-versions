@@ -3,7 +3,6 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 dependencyResolutionManagement {
     versionCatalogs {
-        create("gradlePluginsLibs") { from(files("gradle-plugins.libs.versions.toml")) }
 
         val multiplatformLibs by creating {
             from(files("../catalog-version-multiplatform/multiplatform.versions.toml"))
