@@ -5,9 +5,6 @@ plugins {
     signing
 }
 
-group = Metadata.groupId
-version = Metadata.version
-
 publishing {
     publications.withType<MavenPublication>().all {
         pom {

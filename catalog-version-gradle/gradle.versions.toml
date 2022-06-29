@@ -1,20 +1,20 @@
 [versions]
 kotlin = "1.7.0"
-kotlinDokka = "1.6.21"
+kotlinDokka = "1.7.0"
 
-androidGradleStable = "7.2.0"
-androidGradle = "7.4.0-alpha05"
+androidGradleStable = "7.2.1"
+androidGradle = "7.4.0-alpha06"
 androidNavigation = "2.5.0-rc02"
 
 mokoMobileMultiplatform = "0.14.1"
-mokoResources = "0.20.0"
+mokoResources = "0.20.1"
 mokoKswift = "0.5.0"
 
 sqlDelight = "1.5.3"
 googleServices = "4.3.8"
 nexusPublish = "1.1.0"
 
-merseyPlugins = "1.0.4"
+mersey-plugins = "1.0.4"
 
 [libraries]
 # Android
@@ -39,4 +39,4 @@ moko-resourcesGenerator = { module = "dev.icerock.moko:resources-generator", ver
 moko-kswift = { module = "dev.icerock.moko:kswift-gradle-plugin", version.ref = "mokoKswift" }
 
 # Mersey
-mersey-gradlePlugins = { module = "io.github.merseyside:plugins", version.ref = "merseyPlugins" }
+mersey-gradlePlugins = { module = "io.github.merseyside:plugins", version.ref = "mersey-plugins" }

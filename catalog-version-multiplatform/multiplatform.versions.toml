@@ -1,5 +1,5 @@
 [versions]
-coroutines = "1.6.1-native-mt"
+coroutines = "1.6.3-native-mt"
 serialization = "1.3.3"
 ktor = "2.0.2"
 koin = "3.2.0-beta-1"
@@ -9,7 +9,7 @@ settings = "0.9"
 uuid = "0.3.1"
 
 moko-mvvm = "0.13.0"
-moko-resources = "0.20.0"
+moko-resources = "0.20.1"
 moko-maps = "0.6.0"
 moko-paging = "0.7.1"
 moko-kswift = "0.5.0"
@@ -18,7 +18,8 @@ paging = "0.4.6"
 bignum = "2.5.0"
 
 #Mersey libs
-kmmLibrary = "1.5.0"
+mersey-kmm = "1.5.1"
+mersey-oauth = "1.0.0"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
@@ -44,10 +45,11 @@ ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
 ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor" }
 
 #Mersey libs
-merseyLib-archyCore = { module = "io.github.merseyside:archy-core", version.ref = "kmmLibrary" }
-merseyLib-utilsCore = { module = "io.github.merseyside:utils-core", version.ref = "kmmLibrary" }
+mersey-archy = { module = "io.github.merseyside:archy-core", version.ref = "mersey-kmm" }
+mersey-utils = { module = "io.github.merseyside:utils-core", version.ref = "mersey-kmm" }
+mersey-oauth = { module = "io.github.merseyside:oauth-core", version.ref = "mersey-oauth" }
 
 [bundles]
-merseyLibs = ["merseyLib-archyCore", "merseyLib-utilsCore"]
+merseyLibs = ["mersey-archy", "mersey-utils"]
 moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
 ktor = ["ktor", "ktor-logging", "ktor-auth"]

@@ -6,13 +6,13 @@ appCompat = "1.4.2"
 androidx-core = "1.7.0"
 activity = "1.4.0"
 material = "1.6.1"
-coroutines = "1.6.1"
+coroutines = "1.6.3"
 fragment = "1.4.1"
 constraintLayout = "2.0.3"
 lifecycle = "2.4.1"
 cardView = "1.0.0"
 recyclerView = "1.2.1"
-dagger = "2.38.1"
+dagger = "2.42"
 navigation = "2.5.0-rc02"
 paging = "3.1.0"
 billing = "4.0.0"
@@ -42,7 +42,7 @@ desugarJdk = "1.1.5"
 
 # Moko
 moko-mvvm = "0.13.0"
-moko-resources = "0.20.0"
+moko-resources = "0.20.1"
 
 #Retrofit
 retrofit = "2.9.0"
@@ -60,11 +60,12 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-merseyLib = "1.9.8"
-kmmLibrary = "1.5.0"
-filemanager = "1.0.8"
-firestoreCoroutines = "1.0.4"
-quickAction = "2.4.7"
+mersey-android = "1.9.9"
+mersey-filemanager = "1.0.8"
+mersey-oauth = "1.0.0"
+mersey-firestore-coroutines = "1.0.4"
+mersey-quickAction = "2.4.7"
+mersey-kmm = "1.5.1"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
@@ -140,21 +141,23 @@ firebase-analytics = { module = "com.google.firebase:firebase-analytics", versio
 firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firabaseMessaging" }
 
 #Mersey libs
-merseyLib-archy = { module = "io.github.merseyside:archy", version.ref="merseyLib" }
-merseyLib-adapters = { module = "io.github.merseyside:adapters", version.ref="merseyLib" }
-merseyLib-animators = { module = "io.github.merseyside:animators", version.ref="merseyLib" }
-merseyLib-utils = { module = "io.github.merseyside:utils", version.ref="merseyLib" }
-merseyLib-filemanager = { module = "io.github.merseyside:filemanager", version.ref="filemanager" }
-merseyLib-firestoreCoroutines = { module = "io.github.merseyside:firestore-coroutines", version.ref="firestoreCoroutines" }
-merseyLib-quickAction = { module = "io.github.merseyside:quickaction", version.ref = "quickAction" }
+mersey-archy = { module = "io.github.merseyside:archy", version.ref="mersey-android" }
+mersey-adapters = { module = "io.github.merseyside:adapters", version.ref="mersey-android" }
+mersey-animators = { module = "io.github.merseyside:animators", version.ref="mersey-android" }
+mersey-utils = { module = "io.github.merseyside:utils", version.ref="mersey-android" }
+mersey-filemanager = { module = "io.github.merseyside:filemanager", version.ref="mersey-filemanager" }
+mersey-oauth = { module = "io.github.merseyside:oauth-android", version.ref = "mersey-oauth" }
+mersey-firestoreCoroutines = { module = "io.github.merseyside:firestore-coroutines", version.ref="mersey-firestore-coroutines" }
+mersey-quickAction = { module = "io.github.merseyside:quickaction", version.ref = "mersey-quickAction" }
 
-merseyLib-archyAndroid = { module = "io.github.merseyside:archy-android", version.ref = "kmmLibrary" }
+#Multiplatform android libs
+mersey-archy-kmm = { module = "io.github.merseyside:archy-android", version.ref = "mersey-kmm" }
 
 [bundles]
 lifecycle = ["lifecycleViewModel", "lifecycleViewModelSavedState", "lifecycleLiveDataKtx"]
 navigation = ["navigation", "navigationUi"]
 room = ["room", "roomKtx"]
-merseyLibs = ["merseyLib-archy", "merseyLib-adapters", "merseyLib-animators", "merseyLib-utils"]
+mersey-android = ["mersey-archy", "mersey-adapters", "mersey-animators", "mersey-utils"]
 moko-mvvm = ["moko-mvvm-databinding", "moko-mvvm-viewbinding", "moko-mvvm-livedata-material"]
 ktor = ["ktor", "ktor-okhttp"]
 koin = ["koin", "koin-navigation"]
