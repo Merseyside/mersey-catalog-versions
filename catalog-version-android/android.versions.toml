@@ -60,7 +60,7 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-mersey-android = "1.9.9"
+mersey-android = "2.0.0"
 mersey-filemanager = "1.0.8"
 mersey-oauth = "1.0.0"
 mersey-firestore-coroutines = "1.0.4"

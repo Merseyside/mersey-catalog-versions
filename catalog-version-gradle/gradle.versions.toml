@@ -3,7 +3,7 @@ kotlin = "1.7.0"
 kotlinDokka = "1.7.0"
 
 androidGradleStable = "7.2.1"
-androidGradle = "7.4.0-alpha06"
+androidGradle = "7.4.0-alpha07"
 androidNavigation = "2.5.0-rc02"
 
 mokoMobileMultiplatform = "0.14.1"
