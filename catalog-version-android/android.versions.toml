@@ -1,13 +1,13 @@
 [versions]
 kotlin = "1.7.0"
-serialization = "1.3.3"
 
+coroutines = "1.6.3"
 appCompat = "1.4.2"
 androidx-core = "1.7.0"
 activity = "1.4.0"
 material = "1.6.1"
-coroutines = "1.6.3"
 fragment = "1.4.1"
+flexBox = "3.0.0"
 constraintLayout = "2.0.3"
 lifecycle = "2.4.1"
 cardView = "1.0.0"
@@ -27,7 +27,7 @@ rxjava2 = "2.2.20"
 coil = "2.1.0"
 typedDataStore = "1.0.0"
 location = "19.0.1"
-ktor = "2.0.2"
+ktor = "2.0.3"
 koin = "3.2.0-beta-1"
 sqldelight = "1.5.3"
 bouncyCastle = "1.65"
@@ -60,7 +60,7 @@ firebaseAnalytics = "20.0.2"
 firabaseMessaging = "23.0.0"
 
 #Mersey libs
-mersey-android = "2.0.0"
+mersey-android = "2.0.1"
 mersey-filemanager = "1.0.8"
 mersey-oauth = "1.0.0"
 mersey-firestore-coroutines = "1.0.4"
@@ -74,6 +74,7 @@ androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-cor
 activityKtx = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
 fragment = { module = "androidx.fragment:fragment", version.ref = "fragment" }
+flexBox = { module = "com.google.android.flexbox:flexbox", version.ref = "flexBox" }
 recyclerView = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerView" }
 constraintLayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
 lifecycleViewModel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }

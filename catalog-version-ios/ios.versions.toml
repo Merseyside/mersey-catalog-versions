@@ -1,0 +1,9 @@
+[versions]
+ktor = "2.0.3"
+sqldelight = "1.5.3"
+
+[libraries]
+sqldelight = { module = "com.squareup.sqldelight:native-driver", version.ref = "sqldelight" }
+ktor-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+
+[bundles]
