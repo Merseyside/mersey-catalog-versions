@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.7.0"
+kotlin = "1.7.10"
 kotlinDokka = "1.7.0"
 
 androidGradleStable = "7.2.1"

@@ -1,7 +1,7 @@
 [versions]
-kotlin = "1.7.0"
+kotlin = "1.7.10"
 
-coroutines = "1.6.3"
+coroutines = "1.6.4"
 appCompat = "1.4.2"
 androidx-core = "1.7.0"
 activity = "1.4.0"
