@@ -18,7 +18,7 @@ paging = "0.4.6"
 bignum = "2.5.0"
 
 #Mersey libs
-mersey-kmm = "1.5.1"
+mersey-kmm = "1.5.2"
 mersey-oauth = "1.0.0"
 
 [libraries]

@@ -1,6 +1,6 @@
 [versions]
 kotlin = "1.7.10"
-kotlinDokka = "1.7.0"
+kotlinDokka = "1.7.10"
 
 androidGradleStable = "7.2.1"
 androidGradle = "7.4.0-alpha08"
@@ -10,6 +10,7 @@ mokoMobileMultiplatform = "0.14.1"
 mokoResources = "0.20.1"
 mokoKswift = "0.5.0"
 
+buildkonfig = "0.12.0"
 sqlDelight = "1.5.3"
 googleServices = "4.3.8"
 nexusPublish = "1.1.0"
@@ -17,18 +18,19 @@ nexusPublish = "1.1.0"
 mersey-plugins = "1.0.4"
 
 [libraries]
+# Kotlin
+kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
+kotlin-dokka = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "kotlinDokka" }
+
 # Android
 android-gradle-stable = { module = "com.android.tools.build:gradle", version.ref = "androidGradleStable" }
 android-gradle = { module = "com.android.tools.build:gradle", version.ref = "androidGradle" }
 android-gradleApi = { module = "com.android.tools.build:gradle-api", version.ref = "androidGradle" }
 android-navigation-safeArgs = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "androidNavigation" }
 
-# Kotlin
-kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
-kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
-kotlin-dokka = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "kotlinDokka" }
-
 # Other
+buildkonfig = { module = "com.codingfeline.buildkonfig:buildkonfig-gradle-plugin", version.ref = "buildkonfig" }
 sqlDelight = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "sqlDelight" }
 google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
 nexusPublish = { module = "io.github.gradle-nexus:publish-plugin", version.ref= "nexusPublish" }

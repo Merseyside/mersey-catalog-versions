@@ -7,15 +7,15 @@ pluginPublish = "0.15.0"
 mersey-plugins = "1.0.4"
 
 [plugins]
-android-library = { id = "com.android.library" }
-android-application = { id = "com.android.application" }
-android-navigation-args = { id = "androidx.navigation.safeargs.kotlin" }
-
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform" }
 kotlin-kapt = { id = "kotlin-kapt" }
 kotlin-serialization = { id = "kotlinx-serialization" }
 kotlin-android = { id = "kotlin-android" }
 kotlin-parcelize = { id = "kotlin-parcelize" }
+
+android-library = { id = "com.android.library" }
+android-application = { id = "com.android.application" }
+android-navigation-args = { id = "androidx.navigation.safeargs.kotlin" }
 
 signing = { id = "signing" }
 mavenPublish = { id = "maven-publish" }
@@ -32,6 +32,7 @@ mersey-kotlin-convention = { id = "io.github.merseyside.kotlin-convention", vers
 
 cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
 
+buildkonfig = { id = "com.codingfeline.buildkonfig" }
 versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
 swiftPackage = { id = "com.chromaticnoise.multiplatform-swiftpackage", version.ref = "swiftPackage" }
 pluginPublish = { id = "com.gradle.plugin-publish", version.ref= "pluginPublish" }

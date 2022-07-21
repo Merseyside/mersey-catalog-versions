@@ -65,7 +65,7 @@ mersey-filemanager = "1.0.8"
 mersey-oauth = "1.0.0"
 mersey-firestore-coroutines = "1.0.4"
 mersey-quickAction = "2.4.7"
-mersey-kmm = "1.5.1"
+mersey-kmm = "1.5.2"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
