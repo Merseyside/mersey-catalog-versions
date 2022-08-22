@@ -1,7 +1,7 @@
 [versions]
 kotlin = "1.7.10"
 versionChecker = "0.42.0"
-mokoKswift = "0.5.0"
+mokoKswift = "0.6.0"
 swiftPackage = "2.0.3"
 pluginPublish = "0.15.0"
 mersey-plugins = "1.0.4"
@@ -16,6 +16,9 @@ kotlin-parcelize = { id = "kotlin-parcelize" }
 android-library = { id = "com.android.library" }
 android-application = { id = "com.android.application" }
 android-navigation-args = { id = "androidx.navigation.safeargs.kotlin" }
+
+google-services = { id = "com.google.gms.google-services" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics" }
 
 signing = { id = "signing" }
 mavenPublish = { id = "maven-publish" }
