@@ -8,7 +8,7 @@ coroutines = "1.6.4"
 
 #Mersey libs
 mersey-time = "1.1.6"
-mersey-kotlin-ext = "1.2.3"
+mersey-kotlin-ext = "1.2.4"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
