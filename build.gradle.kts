@@ -4,5 +4,5 @@ plugins {
 
 allprojects {
     group = "io.github.merseyside"
-    version = "1.5.7"
+    version = "1.5.8"
 }
