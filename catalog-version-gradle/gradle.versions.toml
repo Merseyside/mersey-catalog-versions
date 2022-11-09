@@ -1,9 +1,9 @@
 [versions]
-kotlin = "1.7.20"
+kotlin = "1.7.21"
 kotlinDokka = "1.7.20"
 
 androidGradleStable = "7.3.0"
-androidGradle = "8.0.0-alpha07"
+androidGradle = "7.4.0-beta05"
 androidNavigation = "2.5.3"
 
 mokoMobileMultiplatform = "0.14.1"
