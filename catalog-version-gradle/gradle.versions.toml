@@ -16,7 +16,7 @@ googleServices = "4.3.10"
 nexusPublish = "1.1.0"
 crashlytics = "2.8.1"
 
-mersey-plugins = "1.0.4"
+mersey-plugins = "1.0.5"
 
 [libraries]
 # Kotlin
