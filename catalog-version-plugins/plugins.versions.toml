@@ -1,7 +1,7 @@
 [versions]
-kotlin = "1.7.21"
+kotlin = "1.8.0"
 versionChecker = "0.42.0"
-mokoKswift = "0.6.0"
+mokoKswift = "0.6.1"
 swiftPackage = "2.0.3"
 pluginPublish = "0.15.0"
 mersey-plugins = "1.0.5"
