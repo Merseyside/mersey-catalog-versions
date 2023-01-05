@@ -60,7 +60,8 @@ firebaseCrashlytics = "18.2.12"
 firebaseAnalytics = "21.1.0"
 
 #Mersey libs
-mersey-android = "2.0.3"
+mersey-android = "2.0.5"
+mersey-adapters = "1.0.0"
 mersey-filemanager = "1.0.8"
 mersey-oauth = "1.0.0"
 mersey-firestore-coroutine-adapter = "1.0.5"
@@ -151,7 +152,6 @@ firebase-messaging = { module = "com.google.firebase:firebase-messaging-ktx", ve
 
 #Mersey libs
 mersey-archy = { module = "io.github.merseyside:archy", version.ref="mersey-android" }
-mersey-adapters = { module = "io.github.merseyside:adapters", version.ref="mersey-android" }
 mersey-animators = { module = "io.github.merseyside:animators", version.ref="mersey-android" }
 mersey-utils = { module = "io.github.merseyside:utils", version.ref="mersey-android" }
 mersey-filemanager = { module = "io.github.merseyside:filemanager", version.ref="mersey-filemanager" }
@@ -159,6 +159,11 @@ mersey-oauth = { module = "io.github.merseyside:oauth-android", version.ref = "m
 mersey-firestore-coroutines = { module = "io.github.merseyside:firestore-coroutine-adapter", version.ref="mersey-firestore-coroutine-adapter" }
 mersey-quickAction = { module = "io.github.merseyside:quickaction", version.ref = "mersey-quickAction" }
 mersey-materialRangeBar = { module = "io.github.merseyside:rangebar", version.ref = "mersey-materialRangeBar" }
+
+mersey-adapters = { module = "io.github.merseyside:adapters", version.ref="mersey-adapters" }
+mersey-adapters-delegates = { module = "io.github.merseyside:adapters-delegates", version.ref="mersey-adapters" }
+mersey-adapters-compose = { module = "io.github.merseyside:adapters-compose", version.ref="mersey-adapters" }
+mersey-adapters-coroutine-ext = { module = "io.github.merseyside:adapters-delegates", version.ref="mersey-adapters" }
 
 #Multiplatform android libs
 mersey-archy-kmm = { module = "io.github.merseyside:archy-android", version.ref = "mersey-kmm" }
@@ -168,7 +173,8 @@ lifecycle = ["lifecycleViewModel", "lifecycleViewModelSavedState", "lifecycleLiv
 navigation = ["navigation", "navigationUi"]
 room = ["room", "room-ktx"]
 coil = ["coil", "coil-svg", "coil-gif", "coil-video"]
-mersey-android = ["mersey-archy", "mersey-adapters", "mersey-animators", "mersey-utils"]
+mersey-android = ["mersey-archy", "mersey-animators", "mersey-utils"]
+mersey-adapters = ["mersey-adapters", "mersey-adapters-delegates", "mersey-adapters-compose", "mersey-adapters-coroutine-ext"]
 moko-mvvm = ["moko-mvvm-databinding", "moko-mvvm-viewbinding", "moko-mvvm-livedata-material"]
 ktor = ["ktor", "ktor-okhttp"]
 koin = ["koin", "koin-navigation"]
