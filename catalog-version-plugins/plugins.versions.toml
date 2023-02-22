@@ -1,10 +1,11 @@
 [versions]
-kotlin = "1.8.0"
+kotlin = "1.8.10"
 versionChecker = "0.42.0"
 mokoKswift = "0.6.1"
 swiftPackage = "2.0.3"
 pluginPublish = "0.15.0"
 mersey-plugins = "1.0.5"
+sqldelight = "1.5.5"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform" }
@@ -23,7 +24,7 @@ firebase-crashlytics = { id = "com.google.firebase.crashlytics" }
 signing = { id = "signing" }
 mavenPublish = { id = "maven-publish" }
 nexusConfig = { id = "nexus-config" }
-sqldelight = { id = "com.squareup.sqldelight" }
+sqldelight = { id = "com.squareup.sqldelight", version.ref="sqldelight" }
 
 moko-multiplatform = { id = "dev.icerock.mobile.multiplatform" }
 moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "mokoKswift" }

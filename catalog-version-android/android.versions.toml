@@ -1,8 +1,8 @@
 [versions]
-kotlin = "1.8.0"
+kotlin = "1.8.10"
 
 coroutines = "1.6.4"
-appCompat = "1.6.0"
+appCompat = "1.6.1"
 androidx-core = "1.9.0"
 activity = "1.6.1"
 material = "1.6.1"
@@ -61,7 +61,7 @@ firebaseCrashlytics = "18.2.12"
 firebaseAnalytics = "21.1.0"
 
 #Mersey libs
-mersey-android = "2.0.5"
+mersey-android = "2.0.6"
 mersey-adapters = "1.0.0"
 mersey-filemanager = "1.0.8"
 mersey-oauth = "1.0.0"
