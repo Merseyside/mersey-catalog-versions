@@ -1,6 +1,6 @@
 [versions]
-kotlin = "1.8.10"
-kotlinDokka = "1.7.20"
+kotlin = "1.8.20-RC"
+kotlinDokka = "1.8.10"
 
 androidGradleStable = "7.3.1"
 androidGradle = "7.4.0-rc01"
@@ -14,9 +14,9 @@ buildkonfig = "0.12.0"
 sqldelight = "1.5.5"
 googleServices = "4.3.10"
 nexusPublish = "1.1.0"
-crashlytics = "2.8.1"
+crashlytics = "2.9.4"
 
-mersey-plugins = "1.0.5"
+mersey-plugins = "1.0.6"
 
 [libraries]
 # Kotlin
