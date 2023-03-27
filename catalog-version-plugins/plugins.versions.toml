@@ -1,11 +1,12 @@
 [versions]
-kotlin = "1.8.20-RC"
+kotlin = "1.8.20-RC2"
 versionChecker = "0.42.0"
 mokoKswift = "0.6.1"
 swiftPackage = "2.0.3"
-pluginPublish = "0.15.0"
+pluginPublish = "1.1.0"
 mersey-plugins = "1.0.6"
 sqldelight = "1.5.5"
+gitVersion = "2.0.0"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform" }
@@ -29,6 +30,8 @@ sqldelight = { id = "com.squareup.sqldelight", version.ref="sqldelight" }
 moko-multiplatform = { id = "dev.icerock.mobile.multiplatform" }
 moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "mokoKswift" }
 moko-resources = { id = "dev.icerock.mobile.multiplatform-resources" }
+
+gitVersion = { id = "com.palantir.git-version", version.ref = "gitVersion" }
 
 #Mersey plugins
 mersey-android-extension = { id = "io.github.merseyside.android-extension", version.ref = "mersey-plugins" }
