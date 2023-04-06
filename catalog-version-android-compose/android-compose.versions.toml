@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.8.20-RC2"
+kotlin = "1.8.20"
 
 activity = "1.6.0"
 lifecycle = "2.5.1"

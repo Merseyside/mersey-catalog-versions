@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.8.20-RC2"
+kotlin = "1.8.20"
 
 coroutines = "1.6.4"
 appCompat = "1.6.1"
@@ -29,7 +29,7 @@ coil = "2.2.2"
 typedDataStore = "1.0.0"
 location = "19.0.1"
 ktor = "2.2.4"
-koin = "3.3.3"
+koin = "3.4.0"
 sqldelight = "1.5.5"
 bouncyCastle = "1.65"
 phoneValidator = "8.12.54"
@@ -67,7 +67,7 @@ mersey-filemanager = "1.0.8"
 mersey-oauth = "1.0.0"
 mersey-firestore-coroutine-adapter = "1.0.5"
 mersey-quickAction = "2.4.7"
-mersey-kmm = "1.5.3"
+mersey-kmm = "1.5.4"
 mersey-materialRangeBar = "1.0.0"
 
 [libraries]

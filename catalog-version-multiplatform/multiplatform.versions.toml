@@ -2,7 +2,7 @@
 coroutines = "1.6.4"
 serialization = "1.5.0"
 ktor = "2.2.4"
-koin = "3.3.3"
+koin = "3.4.0"
 sqldelight = "1.5.5"
 versionChecker = "0.39.0"
 settings = "0.9"
@@ -18,8 +18,8 @@ paging = "0.4.6"
 bignum = "2.5.0"
 
 #Mersey libs
-mersey-kmm = "1.5.3"
-mersey-oauth = "1.0.1"
+mersey-kmm = "1.5.4"
+mersey-oauth = "1.0.2"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
