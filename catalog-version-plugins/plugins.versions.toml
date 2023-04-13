@@ -7,6 +7,7 @@ pluginPublish = "1.1.0"
 mersey-plugins = "1.0.7"
 sqldelight = "1.5.5"
 gitVersion = "2.0.0"
+maven-publish-plugin = "0.25.1"
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform" }
@@ -32,6 +33,7 @@ moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "mokoKswift" }
 moko-resources = { id = "dev.icerock.mobile.multiplatform-resources" }
 
 gitVersion = { id = "com.palantir.git-version", version.ref = "gitVersion" }
+maven-publish-plugin = { id = "com.vanniktech.maven.publish", version.ref = "maven-publish-plugin" }
 
 #Mersey plugins
 mersey-android-extension = { id = "io.github.merseyside.android-extension", version.ref = "mersey-plugins" }

@@ -17,6 +17,7 @@ nexusPublish = "1.1.0"
 crashlytics = "2.9.4"
 
 mersey-plugins = "1.0.7"
+maven-publish-plugin = "0.25.1"
 
 [libraries]
 # Kotlin
@@ -36,6 +37,7 @@ sqldelight = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "
 google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
 nexusPublish = { module = "io.github.gradle-nexus:publish-plugin", version.ref= "nexusPublish" }
 crashlytics = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "crashlytics" }
+maven-publish-plugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish-plugin" }
 
 # Moko
 moko-mobileMultiplatform = { module = "dev.icerock:mobile-multiplatform", version.ref = "mokoMobileMultiplatform" }
