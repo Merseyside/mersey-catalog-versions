@@ -1,5 +1,5 @@
 [versions]
-coroutines = "1.6.4"
+coroutines = "1.7.1"
 serialization = "1.5.0"
 ktor = "2.2.4"
 koin = "3.4.0"
@@ -20,6 +20,7 @@ bignum = "2.5.0"
 #Mersey libs
 mersey-kmm = "1.5.4"
 mersey-oauth = "1.0.2"
+mersey-pagination = "0.1.0"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
@@ -48,6 +49,7 @@ ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor" }
 mersey-archy = { module = "io.github.merseyside:archy-core", version.ref = "mersey-kmm" }
 mersey-utils = { module = "io.github.merseyside:utils-core", version.ref = "mersey-kmm" }
 mersey-oauth = { module = "io.github.merseyside:oauth-core", version.ref = "mersey-oauth" }
+mersey-pagination = { module = "io.github.merseyside:pagination", version.ref = "mersey-pagination" }
 
 [bundles]
 merseyLibs = ["mersey-archy", "mersey-utils"]
