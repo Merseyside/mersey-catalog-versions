@@ -7,7 +7,7 @@ coroutines = "1.7.2"
 
 
 #Mersey libs
-mersey-time = "1.1.8"
+mersey-time = "1.1.9"
 mersey-kotlin-ext = "1.2.7"
 
 [libraries]
