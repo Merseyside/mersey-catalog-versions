@@ -2,12 +2,12 @@
 kotlin = "1.8.22"
 kotlinDokka = "1.8.20"
 
-androidGradleStable = "8.0.2"
-androidGradle = "8.2.0-alpha10"
+androidGradleStable = "8.1.0"
+androidGradle = "8.2.0-alpha14"
 androidNavigation = "2.7.0-beta02"
 
 mokoMobileMultiplatform = "0.14.1"
-mokoResources = "0.20.1"
+mokoResources = "0.23.0"
 mokoKswift = "0.6.1"
 
 buildkonfig = "0.13.3"
@@ -15,6 +15,7 @@ sqldelight = "1.5.5"
 googleServices = "4.3.15"
 nexusPublish = "1.1.0"
 crashlytics = "2.9.6"
+gitVersion = "2.0.0"
 
 mersey-plugins = "1.0.7"
 maven-publish-plugin = "0.25.3"
@@ -38,6 +39,7 @@ google-services = { module = "com.google.gms:google-services", version.ref = "go
 nexusPublish = { module = "io.github.gradle-nexus:publish-plugin", version.ref= "nexusPublish" }
 crashlytics = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "crashlytics" }
 maven-publish-plugin = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish-plugin" }
+gitVersion = { module = "com.palantir.gradle.gitversion:gradle-git-version", version.ref = "gitVersion"}
 
 # Moko
 moko-mobileMultiplatform = { module = "dev.icerock:mobile-multiplatform", version.ref = "mokoMobileMultiplatform" }

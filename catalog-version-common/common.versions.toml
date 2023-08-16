@@ -3,7 +3,7 @@
 kotlin = "1.8.22"
 serialization = "1.5.1"
 versionChecker = "0.39.0"
-coroutines = "1.7.2"
+coroutines = "1.7.3"
 
 
 #Mersey libs
