@@ -1,0 +1,47 @@
+[versions]
+kotlin = "1.8.22"
+versionChecker = "0.42.0"
+mokoKswift = "0.6.1"
+swiftPackage = "2.0.3"
+pluginPublish = "1.1.0"
+mersey-plugins = "1.0.7"
+sqldelight = "1.5.5"
+gitVersion = "2.0.0"
+maven-publish-plugin = "0.25.3"
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform" }
+kotlin-kapt = { id = "kotlin-kapt" }
+kotlin-serialization = { id = "kotlinx-serialization" }
+kotlin-android = { id = "kotlin-android" }
+kotlin-parcelize = { id = "kotlin-parcelize" }
+
+android-library = { id = "com.android.library" }
+android-application = { id = "com.android.application" }
+android-navigation-args = { id = "androidx.navigation.safeargs.kotlin" }
+
+google-services = { id = "com.google.gms.google-services" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics" }
+
+signing = { id = "signing" }
+mavenPublish = { id = "maven-publish" }
+nexusConfig = { id = "nexus-config" }
+sqldelight = { id = "com.squareup.sqldelight", version.ref="sqldelight" }
+
+moko-multiplatform = { id = "dev.icerock.mobile.multiplatform" }
+moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "mokoKswift" }
+moko-resources = { id = "dev.icerock.mobile.multiplatform-resources" }
+
+gitVersion = { id = "com.palantir.git-version", version.ref = "gitVersion" }
+maven-publish-plugin = { id = "com.vanniktech.maven.publish", version.ref = "maven-publish-plugin" }
+
+#Mersey plugins
+mersey-android-extension = { id = "io.github.merseyside.android-extension", version.ref = "mersey-plugins" }
+mersey-kotlin-extension = { id = "io.github.merseyside.kotlin-extension", version.ref = "mersey-plugins" }
+
+cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+
+buildkonfig = { id = "com.codingfeline.buildkonfig" }
+versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
+swiftPackage = { id = "com.chromaticnoise.multiplatform-swiftpackage", version.ref = "swiftPackage" }
+pluginPublish = { id = "com.gradle.plugin-publish", version.ref= "pluginPublish" }

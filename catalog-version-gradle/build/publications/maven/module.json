@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.merseyside",
+    "module": "catalog-version-gradle",
+    "version": "1.7.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "catalog-version-gradle-1.7.7.toml",
+          "url": "catalog-version-gradle-1.7.7.toml",
+          "size": 2589,
+          "sha512": "91384396bcf2257624113c1f5b2c943dd51d5c181f7c4316fd330e964bb83e65998007807e4c160bf34b0b5f17110e6836b5ac62a15b45dcc61dfcad9a746876",
+          "sha256": "8436cf5d6e4088bb1a9ec25bb78abe3ed725f1f983066d2ebf2137653ff7ff50",
+          "sha1": "d9a16ece036ebe1c12433a0200710147c4439596",
+          "md5": "a223d46b969cb96d71b0dffeb9ae320f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[versions]
+coroutines = "1.7.3"
+serialization = "1.5.1"
+ktor = "2.3.3"
+koin = "3.4.3"
+sqldelight = "1.5.5"
+versionChecker = "0.39.0"
+settings = "1.0.0"
+uuid = "0.3.1"
+
+moko-mvvm = "0.15.0"
+moko-resources = "0.23.0"
+moko-maps = "0.6.0"
+moko-paging = "0.7.1"
+moko-kswift = "0.6.1"
+
+paging = "0.4.6"
+bignum = "2.5.0"
+
+#Mersey libs
+mersey-kmm = "1.5.4"
+mersey-oauth = "1.0.2"
+mersey-pagination = "0.1.0"
+
+[libraries]
+coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
+serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref="serialization" }
+koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+sqldelight = { module = "com.squareup.sqldelight:runtime", version.ref = "sqldelight" }
+sqldelight-coroutines = { module = "com.squareup.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
+settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings"}
+uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
+kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "paging" }
+bignum = { module = "com.soywiz.korlibs.kbignum:kbignum", version.ref = "bignum" }
+
+moko-mvvm = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
+moko-mvvm-livedata = { module = "dev.icerock.moko:mvvm-livedata", version.ref = "moko-mvvm" }
+moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
+moko-maps-google = { module = "dev.icerock.moko:maps-google", version.ref = "moko-maps" }
+moko-maps = { module = "dev.icerock.moko:maps", version.ref = "moko-maps" }
+moko-paging = { module = "dev.icerock.moko:paging", version.ref = "moko-paging" }
+moko-kswift = { module = "dev.icerock.moko:kswift-runtime", version.ref = "moko-kswift" }
+
+ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
+ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor" }
+
+#Mersey libs
+mersey-archy = { module = "io.github.merseyside:archy-core", version.ref = "mersey-kmm" }
+mersey-utils = { module = "io.github.merseyside:utils-core", version.ref = "mersey-kmm" }
+mersey-oauth = { module = "io.github.merseyside:oauth-core", version.ref = "mersey-oauth" }
+mersey-pagination = { module = "io.github.merseyside:pagination", version.ref = "mersey-pagination" }
+
+[bundles]
+merseyLibs = ["mersey-archy", "mersey-utils"]
+moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
+ktor = ["ktor", "ktor-logging", "ktor-auth"]
