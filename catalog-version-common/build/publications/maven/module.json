@@ -25,10 +25,10 @@
           "name": "catalog-version-common-1.7.7.toml",
           "url": "catalog-version-common-1.7.7.toml",
           "size": 1203,
-          "sha512": "50f37aec292a1d056e43584cabde5d84063ffeff1fd9cb2314d4bb783c5d80134f343870a39fadd6e76678407c9c3a9bcaa36a80974629aedb88e2b65ed6b53d",
-          "sha256": "0e805ad4cddbd2a4db5a1b42c8a87e1e4820d59495ac76d3522c0536a13355c8",
-          "sha1": "669cc66f8e90deb23e76ae4e94b7d4a8c4bb3786",
-          "md5": "085db11bddbd494e5da17977fa091490"
+          "sha512": "21fcd1ad8401ca196440551a74d68769bb34b32dc8936f5b86186cb6374cec51238748fc1e0d104521bd8bf370bcdccbb8b28e89038f94e77f1cac213c687868",
+          "sha256": "6bd7fff068c9202b237f9c80a9667966c95b6983bcacd99382ce875060735928",
+          "sha1": "fb0509bdbd4d2d59d694c402f9bbe4e2548fdb89",
+          "md5": "b72b5091f882d00372c4fe871603795f"
         }
       ]
     }
