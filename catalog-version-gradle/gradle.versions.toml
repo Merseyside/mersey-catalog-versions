@@ -2,7 +2,7 @@
 kotlin = "1.8.22"
 kotlinDokka = "1.8.20"
 
-androidGradleStable = "8.1.0"
+androidGradleStable = "8.0.0"
 androidGradle = "8.2.0-beta01"
 androidNavigation = "2.7.0-beta02"
 
