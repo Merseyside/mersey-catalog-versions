@@ -21,6 +21,7 @@ bignum = "2.5.0"
 mersey-kmm = "1.5.4"
 mersey-oauth = "1.0.2"
 mersey-pagination = "0.1.0"
+mersey-messaging = "0.1.0"
 
 [libraries]
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
@@ -51,7 +52,11 @@ mersey-utils = { module = "io.github.merseyside:utils-core", version.ref = "mers
 mersey-oauth = { module = "io.github.merseyside:oauth-core", version.ref = "mersey-oauth" }
 mersey-pagination = { module = "io.github.merseyside:pagination", version.ref = "mersey-pagination" }
 
+mersey-messaging-core = { module = "io.github.merseyside:messaging-core", version.ref = "mersey-messaging" }
+mersey-messaging-firebase = { module = "io.github.merseyside:messaging-firebase", version.ref = "mersey-messaging" }
+
 [bundles]
 merseyLibs = ["mersey-archy", "mersey-utils"]
 moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
 ktor = ["ktor", "ktor-logging", "ktor-auth"]
+mersey-messaging = ["mersey-messaging-core", "mersey-messaging-firebase"]
