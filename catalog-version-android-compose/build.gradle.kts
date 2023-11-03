@@ -8,11 +8,3 @@ catalog {
         from(files("$projectDir/android-compose.versions.toml"))
     }
 }
-
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["versionCatalog"])
-        }
-    }
-}

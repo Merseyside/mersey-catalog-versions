@@ -8,11 +8,3 @@ catalog {
         from(files("$projectDir/common.versions.toml"))
     }
 }
-
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["versionCatalog"])
-        }
-    }
-}
