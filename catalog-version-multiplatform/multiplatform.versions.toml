@@ -4,7 +4,7 @@ ktor = "2.3.6"
 koin = "3.5.0"
 sqldelight = "2.0.0"
 versionChecker = "0.42.0"
-settings = "1.1.0"
+settings = "1.1.1"
 uuid = "0.8.2"
 
 moko-mvvm = "0.16.1"
