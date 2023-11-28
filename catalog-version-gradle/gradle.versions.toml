@@ -1,15 +1,15 @@
 [versions]
-kotlin = "1.9.20"
+kotlin = "1.9.21"
 kotlinDokka = "1.9.10"
 
 androidGradleStable = "8.1.2"
 androidGradle = "8.2.0-beta01"
-androidNavigation = "2.7.3"
+androidNavigation = "2.7.5"
 
 mokoResources = "0.23.0"
 mokoKswift = "0.6.1"
 
-buildkonfig = "0.13.3"
+buildkonfig = "0.15.0"
 sqldelight = "2.0.0"
 googleServices = "4.4.0"
 nexusPublish = "1.1.0"

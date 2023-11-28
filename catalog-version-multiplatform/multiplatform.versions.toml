@@ -1,11 +1,11 @@
 [versions]
 coroutines = "1.7.3"
-ktor = "2.3.5"
+ktor = "2.3.6"
 koin = "3.5.0"
 sqldelight = "2.0.0"
-versionChecker = "0.39.0"
-settings = "1.0.0"
-uuid = "0.3.1"
+versionChecker = "0.42.0"
+settings = "1.1.1"
+uuid = "0.8.2"
 
 moko-mvvm = "0.16.1"
 moko-resources = "0.23.0"
@@ -14,7 +14,7 @@ moko-paging = "0.7.1"
 moko-kswift = "0.6.1"
 
 paging = "0.4.6"
-bignum = "2.5.0"
+korge-foundation = "5.1.0"
 
 #Mersey libs
 mersey-kmm = "1.5.5"
@@ -27,10 +27,12 @@ coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version
 koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 sqldelight = { module = "app.cash.sqldelight:runtime", version.ref = "sqldelight" }
 sqldelight-coroutines = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
+sqldelight-primitive-adapters = { module = "app.cash.sqldelight:primitive-adapters", version.ref = "sqldelight" }
+sqldelight-dialects-sqlite = { module = "app.cash.sqldelight:sqlite-3-25-dialect", version.ref = "sqldelight"}
 settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings"}
 uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
 kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "paging" }
-bignum = { module = "com.soywiz.korlibs.kbignum:kbignum", version.ref = "bignum" }
+korge-foundation = { module = "com.soywiz.korge:korge-foundation", version.ref = "korge-foundation" }
 
 moko-mvvm = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
 moko-mvvm-livedata = { module = "dev.icerock.moko:mvvm-livedata", version.ref = "moko-mvvm" }
@@ -58,3 +60,4 @@ merseyLibs = ["mersey-archy", "mersey-utils"]
 moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
 ktor = ["ktor", "ktor-logging", "ktor-auth"]
 mersey-messaging = ["mersey-messaging-core", "mersey-messaging-firebase"]
+sqldelight = ["sqldelight", "sqldelight-coroutines", "sqldelight-primitive-adapters"]
