@@ -2,17 +2,17 @@
 kotlin = "1.9.21"
 kotlinDokka = "1.9.10"
 
-androidGradleStable = "8.1.2"
-androidGradle = "8.2.0-beta01"
+androidGradleStable = "8.2.0"
+androidGradle = "8.2.0"
 androidNavigation = "2.7.5"
 
 mokoResources = "0.23.0"
 mokoKswift = "0.6.1"
 
 buildkonfig = "0.15.0"
-sqldelight = "2.0.0"
+sqldelight = "2.0.1"
 googleServices = "4.4.0"
-nexusPublish = "1.1.0"
+nexusPublish = "1.3.0"
 crashlytics = "2.9.9"
 gitVersion = "3.0.0"
 

@@ -5,7 +5,7 @@ mokoKswift = "0.6.1"
 swiftPackage = "2.0.3"
 pluginPublish = "1.2.1"
 mersey-plugins = "1.0.8"
-sqldelight = "2.0.0"
+sqldelight = "2.0.1"
 gitVersion = "3.0.0"
 maven-publish-plugin = "0.25.3"
 
@@ -26,7 +26,7 @@ firebase-crashlytics = { id = "com.google.firebase.crashlytics" }
 signing = { id = "signing" }
 mavenPublish = { id = "maven-publish" }
 nexusConfig = { id = "nexus-config" }
-sqldelight = { id = "app.cash.sqldelight", version.ref="sqldelight" }
+sqldelight = { id = "app.cash.sqldelight", version.ref = "sqldelight" }
 
 moko-multiplatform = { id = "dev.icerock.mobile.multiplatform" }
 moko-kswift = { id = "dev.icerock.moko.kswift", version.ref = "mokoKswift" }
@@ -44,4 +44,4 @@ cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotli
 buildkonfig = { id = "com.codingfeline.buildkonfig" }
 versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionChecker" }
 swiftPackage = { id = "com.chromaticnoise.multiplatform-swiftpackage", version.ref = "swiftPackage" }
-pluginPublish = { id = "com.gradle.plugin-publish", version.ref= "pluginPublish" }
+pluginPublish = { id = "com.gradle.plugin-publish", version.ref = "pluginPublish" }

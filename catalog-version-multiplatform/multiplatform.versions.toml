@@ -1,8 +1,7 @@
 [versions]
-coroutines = "1.7.3"
-ktor = "2.3.6"
+ktor = "2.3.7"
 koin = "3.5.0"
-sqldelight = "2.0.0"
+sqldelight = "2.0.1"
 versionChecker = "0.42.0"
 settings = "1.1.1"
 uuid = "0.8.2"
@@ -17,19 +16,19 @@ paging = "0.4.6"
 korge-foundation = "5.1.0"
 
 #Mersey libs
-mersey-kmm = "1.5.5"
+mersey-kmm = "1.5.6"
 mersey-oauth = "1.0.3"
 mersey-pagination = "0.1.1"
 mersey-messaging = "0.1.0"
+mersey-mapping = "0.1.0"
 
 [libraries]
-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref= "coroutines" }
 koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 sqldelight = { module = "app.cash.sqldelight:runtime", version.ref = "sqldelight" }
 sqldelight-coroutines = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
 sqldelight-primitive-adapters = { module = "app.cash.sqldelight:primitive-adapters", version.ref = "sqldelight" }
-sqldelight-dialects-sqlite = { module = "app.cash.sqldelight:sqlite-3-25-dialect", version.ref = "sqldelight"}
-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings"}
+sqldelight-dialects-sqlite = { module = "app.cash.sqldelight:sqlite-3-25-dialect", version.ref = "sqldelight" }
+settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings" }
 uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
 kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "paging" }
 korge-foundation = { module = "com.soywiz.korge:korge-foundation", version.ref = "korge-foundation" }
@@ -52,12 +51,17 @@ mersey-utils = { module = "io.github.merseyside:utils-core", version.ref = "mers
 mersey-oauth = { module = "io.github.merseyside:oauth-core", version.ref = "mersey-oauth" }
 mersey-pagination = { module = "io.github.merseyside:pagination", version.ref = "mersey-pagination" }
 
+mersey-mapping = { module = "io.github.merseyside:mapping", version.ref = "mersey-mapping" }
+mersey-mapping-koin = { module = "io.github.merseyside:mapping-koin", version.ref = "mersey-mapping" }
+
 mersey-messaging-core = { module = "io.github.merseyside:messaging-core", version.ref = "mersey-messaging" }
 mersey-messaging-firebase = { module = "io.github.merseyside:messaging-firebase", version.ref = "mersey-messaging" }
 
 [bundles]
 merseyLibs = ["mersey-archy", "mersey-utils"]
+mersey-mapping = ["mersey-mapping", "mersey-mapping-koin"]
+mersey-messaging = ["mersey-messaging-core", "mersey-messaging-firebase"]
+
 moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
 ktor = ["ktor", "ktor-logging", "ktor-auth"]
-mersey-messaging = ["mersey-messaging-core", "mersey-messaging-firebase"]
 sqldelight = ["sqldelight", "sqldelight-coroutines", "sqldelight-primitive-adapters"]
