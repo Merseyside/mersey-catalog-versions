@@ -39,6 +39,7 @@ security-crypto = "1.1.0-alpha06"
 glance = "1.0.0"
 emoji = "1.4.0"
 insetter = "0.6.1"
+expandableTextView = "1.0.4"
 
 grpc = "1.52.1"
 cameraVision = "20.1.3"
@@ -111,6 +112,7 @@ security-crypto = { module = "androidx.security:security-crypto", version.ref = 
 glance = { module = "androidx.glance:glance-appwidget", version.ref = "glance" }
 glance-appwidget = { module = "androidx.glance:glance-appwidget", version.ref = "glance" }
 insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
+expandableTextView = { module = "io.github.glailton.expandabletextview:expandabletextview", version.ref = "expandableTextView" }
 
 # Jetpack navigation
 navigation = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
