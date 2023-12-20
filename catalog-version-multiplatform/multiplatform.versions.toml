@@ -1,6 +1,6 @@
 [versions]
 ktor = "2.3.7"
-koin = "3.5.0"
+koin = "3.5.3"
 sqldelight = "2.0.1"
 versionChecker = "0.42.0"
 settings = "1.1.1"

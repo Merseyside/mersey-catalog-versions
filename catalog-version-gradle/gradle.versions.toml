@@ -4,7 +4,7 @@ kotlinDokka = "1.9.10"
 
 androidGradleStable = "8.2.0"
 androidGradle = "8.2.0"
-androidNavigation = "2.7.5"
+androidNavigation = "2.7.6"
 
 mokoResources = "0.23.0"
 mokoKswift = "0.6.1"
@@ -16,8 +16,8 @@ nexusPublish = "1.3.0"
 crashlytics = "2.9.9"
 gitVersion = "3.0.0"
 
-mersey-plugins = "1.0.8"
-maven-publish-plugin = "0.25.3"
+mersey-plugins = "1.1.0"
+maven-publish-plugin = "0.26.0"
 
 [libraries]
 # Kotlin
