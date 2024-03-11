@@ -49,7 +49,9 @@ ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor" }
 mersey-archy = { module = "io.github.merseyside:archy-core", version.ref = "mersey-kmm" }
 mersey-utils = { module = "io.github.merseyside:utils-core", version.ref = "mersey-kmm" }
 mersey-oauth = { module = "io.github.merseyside:oauth-core", version.ref = "mersey-oauth" }
+
 mersey-pagination = { module = "io.github.merseyside:pagination", version.ref = "mersey-pagination" }
+mersey-pagination-coroutines = { module = "io.github.merseyside:pagination-coroutines", version.ref = "mersey-pagination" }
 
 mersey-mapping = { module = "io.github.merseyside:mapping", version.ref = "mersey-mapping" }
 mersey-mapping-koin = { module = "io.github.merseyside:mapping-koin", version.ref = "mersey-mapping" }
@@ -61,6 +63,7 @@ mersey-messaging-firebase = { module = "io.github.merseyside:messaging-firebase"
 merseyLibs = ["mersey-archy", "mersey-utils"]
 mersey-mapping = ["mersey-mapping", "mersey-mapping-koin"]
 mersey-messaging = ["mersey-messaging-core", "mersey-messaging-firebase"]
+mersey-pagination = ["mersey-pagination", "mersey-pagination-coroutines"]
 
 moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
 ktor = ["ktor", "ktor-logging", "ktor-auth"]
