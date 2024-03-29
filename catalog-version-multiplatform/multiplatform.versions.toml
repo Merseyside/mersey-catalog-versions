@@ -1,5 +1,5 @@
 [versions]
-ktor = "2.3.7"
+ktor = "2.3.9"
 koin = "3.5.3"
 sqldelight = "2.0.1"
 versionChecker = "0.42.0"
