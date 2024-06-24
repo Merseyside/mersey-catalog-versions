@@ -21,6 +21,7 @@ mersey-oauth = "1.0.3"
 mersey-pagination = "0.1.1"
 mersey-messaging = "0.1.0"
 mersey-mapping = "0.1.0"
+mersey-fileuploader = "0.1.0"
 
 [libraries]
 koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
@@ -58,6 +59,8 @@ mersey-mapping-koin = { module = "io.github.merseyside:mapping-koin", version.re
 
 mersey-messaging-core = { module = "io.github.merseyside:messaging-core", version.ref = "mersey-messaging" }
 mersey-messaging-firebase = { module = "io.github.merseyside:messaging-firebase", version.ref = "mersey-messaging" }
+
+mersey-fileuploader = { module = "io.github.merseyside:fileuploader", version.ref = "mersey-fileuploader" }
 
 [bundles]
 merseyLibs = ["mersey-archy", "mersey-utils"]
