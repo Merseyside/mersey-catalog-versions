@@ -1,11 +1,11 @@
 [versions]
-kotlin = "1.9.22"
+kotlin = "2.0.0"
 versionChecker = "0.42.0"
 mokoKswift = "0.6.1"
 swiftPackage = "2.0.3"
 pluginPublish = "1.2.1"
-mersey-plugins = "1.1.1"
-sqldelight = "2.0.1"
+mersey-plugins = "1.1.2"
+sqldelight = "2.0.2"
 gitVersion = "3.0.0"
 maven-publish-plugin = "0.25.3"
 
