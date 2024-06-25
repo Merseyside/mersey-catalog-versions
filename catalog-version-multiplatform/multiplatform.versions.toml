@@ -1,5 +1,5 @@
 [versions]
-ktor = "2.3.11"
+ktor = "2.3.12"
 koin = "3.5.6"
 sqldelight = "2.0.2"
 versionChecker = "0.42.0"
@@ -7,7 +7,7 @@ settings = "1.1.1"
 uuid = "0.8.2"
 
 moko-mvvm = "0.16.1"
-moko-resources = "0.23.0"
+moko-resources = "0.24.1"
 moko-maps = "0.6.0"
 moko-paging = "0.7.1"
 moko-kswift = "0.6.1"
@@ -16,11 +16,11 @@ paging = "0.4.6"
 korge-foundation = "5.1.0"
 
 #Mersey libs
-mersey-kmm = "1.5.6"
-mersey-oauth = "1.0.3"
-mersey-pagination = "0.1.1"
-mersey-messaging = "0.1.0"
-mersey-mapping = "0.1.0"
+mersey-kmm = "1.6.0"
+mersey-oauth = "1.1.0"
+mersey-pagination = "0.2.0"
+mersey-messaging = "0.2.0"
+mersey-mapping = "0.2.0"
 mersey-fileuploader = "0.1.0"
 
 [libraries]
