@@ -7,7 +7,7 @@ settings = "1.1.1"
 uuid = "0.8.2"
 
 moko-mvvm = "0.16.1"
-moko-resources = "0.24.1"
+moko-resources = "0.24.2"
 moko-maps = "0.6.0"
 moko-paging = "0.7.1"
 moko-kswift = "0.6.1"

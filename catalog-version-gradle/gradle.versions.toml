@@ -1,11 +1,11 @@
 [versions]
-kotlin = "2.0.0"
-kotlinDokka = "1.9.10"
+kotlin = "2.0.20"
+kotlinDokka = "1.9.20"
 
-androidGradle = "8.5.1"
+androidGradle = "8.5.2"
 androidNavigation = "2.7.7"
 
-mokoResources = "0.24.1"
+mokoResources = "0.24.2"
 mokoKswift = "0.6.1"
 
 buildkonfig = "0.15.0"
