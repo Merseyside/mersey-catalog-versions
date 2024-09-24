@@ -115,7 +115,7 @@ grpc-core = { module = "io.grpc:grpc-core", version.ref = "grpc" }
 camera-vision = { module = "com.google.android.gms:play-services-vision", version.ref = "cameraVision" }
 desugarJdk = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugarJdk" }
 security-crypto = { module = "androidx.security:security-crypto", version.ref = "security-crypto" }
-glance = { module = "androidx.glance:glance-appwidget", version.ref = "glance" }
+glance = { module = "androidx.glance:glance", version.ref = "glance" }
 glance-appwidget = { module = "androidx.glance:glance-appwidget", version.ref = "glance" }
 insetter = { module = "dev.chrisbanes.insetter:insetter", version.ref = "insetter" }
 expandableTextView = { module = "io.github.glailton.expandabletextview:expandabletextview", version.ref = "expandableTextView" }
