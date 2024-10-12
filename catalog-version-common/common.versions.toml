@@ -1,8 +1,10 @@
 [versions]
-kotlin = "2.0.0"
+kotlin = "2.0.21"
 serialization = "1.6.3"
 versionChecker = "0.39.0"
-coroutines = "1.9.0-RC"
+coroutines = "1.9.0"
+kotlin-io = "0.5.3"
+kotlin-atomicfu = "0.25.0"
 
 
 #Mersey libs
@@ -14,6 +16,9 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
+kotlin-io-core = { module = "org.jetbrains.kotlinx:kotlinx-io-core", version.ref = "kotlin-io" }
+kotlin-io-bytestring = { module = "org.jetbrains.kotlinx:kotlinx-io-bytestring", version.ref = "kotlin-io" }
+kotlin-atomicfu = { module = "org.jetbrains.kotlinx:atomicfu", version.ref = "kotlin-atomicfu" }
 
 #Mersey libs
 mersey-time = { module = "io.github.merseyside:time", version.ref = "mersey-time" }
@@ -25,4 +30,5 @@ versionChecker = { id = "com.github.ben-manes.versions", version.ref = "versionC
 
 [bundles]
 mersey-time = ["mersey-time", "mersey-time-coroutines"]
+kotlin-io = ["kotlin-io-core", "kotlin-io-bytestring"]
 

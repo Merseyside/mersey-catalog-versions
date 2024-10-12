@@ -1,13 +1,13 @@
 [versions]
-ktor = "2.3.12"
-koin = "3.5.6"
+ktor = "3.0.0"
+koin = "4.0.0"
 sqldelight = "2.0.2"
 versionChecker = "0.42.0"
 settings = "1.1.1"
 uuid = "0.8.2"
 
 moko-mvvm = "0.16.1"
-moko-resources = "0.24.1"
+moko-resources = "0.24.2"
 moko-maps = "0.6.0"
 moko-paging = "0.7.1"
 moko-kswift = "0.6.1"
@@ -22,18 +22,22 @@ mersey-pagination = "0.2.0"
 mersey-messaging = "0.2.0"
 mersey-mapping = "0.2.0"
 mersey-fileuploader = "0.1.0"
+mersey-sockets = "0.1.0"
 
 [libraries]
 koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
-sqldelight = { module = "app.cash.sqldelight:runtime", version.ref = "sqldelight" }
-sqldelight-coroutines = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
-sqldelight-primitive-adapters = { module = "app.cash.sqldelight:primitive-adapters", version.ref = "sqldelight" }
-sqldelight-dialects-sqlite = { module = "app.cash.sqldelight:sqlite-3-25-dialect", version.ref = "sqldelight" }
 settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings" }
 uuid = { module = "com.benasher44:uuid", version.ref = "uuid" }
 kuuuurt-paging = { module = "io.github.kuuuurt:multiplatform-paging", version.ref = "paging" }
 korge-foundation = { module = "com.soywiz.korge:korge-foundation", version.ref = "korge-foundation" }
 
+# SqlDelight
+sqldelight = { module = "app.cash.sqldelight:runtime", version.ref = "sqldelight" }
+sqldelight-coroutines = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqldelight" }
+sqldelight-primitive-adapters = { module = "app.cash.sqldelight:primitive-adapters", version.ref = "sqldelight" }
+sqldelight-dialects-sqlite = { module = "app.cash.sqldelight:sqlite-3-25-dialect", version.ref = "sqldelight" }
+
+# Moko
 moko-mvvm = { module = "dev.icerock.moko:mvvm-core", version.ref = "moko-mvvm" }
 moko-mvvm-livedata = { module = "dev.icerock.moko:mvvm-livedata", version.ref = "moko-mvvm" }
 moko-resources = { module = "dev.icerock.moko:resources", version.ref = "moko-resources" }
@@ -42,11 +46,18 @@ moko-maps = { module = "dev.icerock.moko:maps", version.ref = "moko-maps" }
 moko-paging = { module = "dev.icerock.moko:paging", version.ref = "moko-paging" }
 moko-kswift = { module = "dev.icerock.moko:kswift-runtime", version.ref = "moko-kswift" }
 
+# Ktor
 ktor = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 ktor-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
 ktor-auth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
 
-#Mersey libs
+# Ktor network(sockets)
+ktor-network = { module = "io.ktor:ktor-network", version.ref = "ktor" }
+ktor-network-tls = { module = "io.ktor:ktor-network-tls", version.ref = "ktor" }
+
+# Mersey libs
 mersey-archy = { module = "io.github.merseyside:archy-core", version.ref = "mersey-kmm" }
 mersey-utils = { module = "io.github.merseyside:utils-core", version.ref = "mersey-kmm" }
 mersey-oauth = { module = "io.github.merseyside:oauth-core", version.ref = "mersey-oauth" }
@@ -62,6 +73,8 @@ mersey-messaging-firebase = { module = "io.github.merseyside:messaging-firebase"
 
 mersey-fileuploader = { module = "io.github.merseyside:fileuploader", version.ref = "mersey-fileuploader" }
 
+mersey-sockets-ktor = { module = "io.github.merseyside:sockets-ktor", version.ref = "mersey-sockets" }
+
 [bundles]
 merseyLibs = ["mersey-archy", "mersey-utils"]
 mersey-mapping = ["mersey-mapping", "mersey-mapping-koin"]
@@ -70,4 +83,5 @@ mersey-pagination = ["mersey-pagination", "mersey-pagination-coroutines"]
 
 moko-mvvm = ["moko-mvvm", "moko-mvvm-livedata"]
 ktor = ["ktor", "ktor-logging", "ktor-auth"]
+ktor-network = ["ktor-network", "ktor-network-tls"]
 sqldelight = ["sqldelight", "sqldelight-coroutines", "sqldelight-primitive-adapters"]
