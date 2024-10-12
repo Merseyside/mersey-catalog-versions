@@ -1,8 +1,8 @@
 [versions]
-kotlin = "2.0.20"
+kotlin = "2.0.21"
 kotlinDokka = "1.9.20"
 
-androidGradle = "8.5.2"
+androidGradle = "8.7.0"
 androidNavigation = "2.8.2"
 
 mokoResources = "0.24.2"
